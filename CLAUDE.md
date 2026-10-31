@@ -52,13 +52,12 @@ The player may browse these files. **Don't write future content into the repo**:
 |---|---|
 | `campaign/overview.md` | Snapshot: save info, difficulty, act, region, location, party, spoiler level, player preferences. **Read this first, every session.** |
 | `campaign/story-so-far.md` | Narrative recap, split by act and chapter, written only from what the player experienced. |
-| `campaign/characters.md` | Player character and the companions they've met: class, level, build notes, approval, personal quest status, romance. |
+| `campaign/characters/README.md` | Party quick view: who's where, approval, "who to use for what", party to-dos. |
+| `campaign/characters/<name>.md` | One file per character the player has met: ability scores, HP/AC, saves, every skill, features, reactions, spellcasting, equipment, approval, personal quest, build notes. Keep the same layout in every file. |
 | `campaign/quests.md` | Active, completed and failed quests: what happened, the journal's next lead, and your nudge. |
 | `campaign/decisions.md` | Important choices made and who reacted. Only consequences the player already knows about. |
 | `campaign/next-steps.md` | Current plan: what to do now, missables in the current area, the next point of no return, prep checklist. |
 | `campaign/log.md` | Dated log of sessions, photo batches processed, and what changed. |
-| `photos/inbox/` | Photos committed to the repo that haven't been processed yet. |
-| `photos/processed/YYYY-MM-DD/` | Photos after processing. |
 
 Mark anything unknown as `_unknown_`, and anything uncertain with `(?)`. **Never invent facts to fill a gap.** Ask for a photo instead.
 
@@ -66,19 +65,15 @@ Mark anything unknown as `_unknown_`, and anything uncertain with `(?)`. **Never
 
 ## Processing photos
 
-Photos reach you in one of three ways:
-- **Attached in chat.** These are also saved under `/root/.claude/uploads/<session>/`. Copy them to `photos/processed/<today>/` with descriptive names, shrinking them first (`convert f -auto-orient -resize '1800x1800>' -strip -quality 80 f`; phone originals are ~2 MB each). Future sessions can't see chat images, so the repo copy and your notes are the only record.
-- **Google Drive** (the player shares a folder or file). Use the Google Drive tools.
-- **Committed to `photos/inbox/`.**
+Photos usually arrive **attached in chat** (sometimes via a shared Google Drive folder; use the Drive tools). **The player chose not to keep photos in the repo.** Transcribe everything useful into `campaign/` right away, because your notes are the only record future sessions will have.
 
 For each batch:
 1. Work out what each photo shows (journal quest list, a quest entry, map, character sheet, inventory, save menu, camp…).
 2. Extract everything legible: quest names and entry text, levels, classes, approval, gear, map markers, waypoints, save name and playtime. Phone photos of a monitor have glare and moiré. Mark shaky readings with `(?)`.
 3. Cross-check with the existing files. Newer evidence wins. Note contradictions.
 4. Update the relevant `campaign/` files and add an entry to `campaign/log.md`.
-5. If photos were in `photos/inbox/`, `git mv` them to `photos/processed/<today>/`.
-6. Reply briefly: what you learned, what's still unclear, and which **specific** photos would fill the gaps.
-7. Commit and push.
+5. Reply briefly: what you learned, what's still unclear, and which **specific** photos would fill the gaps.
+6. Commit and push.
 
 ## Answering "what now?" / "what should I do?"
 

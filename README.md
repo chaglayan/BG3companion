@@ -2,12 +2,12 @@
 
 A spoiler-safe companion for my Baldur's Gate 3 playthrough. Claude keeps track of my character, companions, quests and story, reminds me what happened, and nudges me toward good content without spoiling it.
 
-Everything lives in [`campaign/`](campaign/). Start with [`overview.md`](campaign/overview.md).
+Everything lives in [`campaign/`](campaign/). Start with [`overview.md`](campaign/overview.md). Character sheets are in [`campaign/characters/`](campaign/characters/).
 
 ## How to use it (from the phone)
 
 1. Take photos of the game screen (see the list below).
-2. Send them to Claude: attach them in the chat, share a Google Drive folder, or upload them to `photos/inbox/`.
+2. Send them to Claude: attach them in the chat, or share a Google Drive folder. Photos aren't kept; Claude writes down what's in them.
 3. Claude reads them, updates the campaign files and tells me what's still missing.
 4. Ask things like:
    - "Remind me what's going on."
