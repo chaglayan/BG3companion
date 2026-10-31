@@ -31,8 +31,19 @@ Two routes are open:
 ---
 
 ## Personal (Changuine)
-- **Embrace Your Potential**: _entry not photographed_
-- **Discover the Artefact's Secrets**: _entry not photographed_
+
+### Embrace Your Potential
+- A mysterious figure, the **Dream Visitor**, came to you in your dreams. They said your illithid parasites are special, a *"source of great potential."*
+- You've used the tadpole's power to **exert influence beyond yourself**. *"How far does this power go?"*
+- You found a special parasite like your own (a **True Soul** parasite). The Dream Visitor said absorbing its potential would enhance you.
+- You **absorbed the parasite's memories**: *"It nourished our minds, and grew our powers."* That's where Luck of the Far Realms came from.
+- **Current objective:** *Find more parasites to absorb and grow your power.*
+- **Nudge:** whether you use tadpole powers is your call. Just know that some companions have opinions about it, so watch the approval pop-ups.
+
+### Discover the Artefact's Secrets
+- **Shadowheart carries a strange artefact.** It seemed to **protect you from a horrible voice**.
+- **Current objective:** *Find out more about the artefact.*
+- **Nudge:** no concrete lead in the journal. Talk to Shadowheart at camp when a dialogue "!" appears.
 
 ---
 
@@ -121,7 +132,12 @@ Two routes are open:
 - Journal says: *"Benryn mentioned a dowry for him and his wife. It's worth searching for it."*
 - **Nudge:** search around Waukeen's Rest for the dowry.
 
-**Find the Nightsong**: _entry not photographed_
+**Find the Nightsong**: *Open the door.*
+- A wizard in Baldur's Gate is offering a **huge sum** to whoever brings him "the Nightsong".
+- The dwarf adventurer **Brian** had a map to it, but goblins killed him at the temple.
+- You reached the temple said to hold it (in the Goblin Camp).
+- Clue: a **poem about Selûne** mentions a **door under the temple**. *"What is hidden beneath the Goblin Camp?"*
+- **Nudge:** you've already been under the temple for the Underdark route. Keep this quest in mind whenever something Selûne-related shows up.
 
 ### Shadow-Cursed Lands
 **Rescue the Grand Duke**: open (see Wyll's Grand Duke thread above).

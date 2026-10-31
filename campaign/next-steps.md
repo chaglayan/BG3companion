@@ -27,7 +27,7 @@ Tick these off before leaving Act 1:
 - [ ] Grab any **infernal iron** you see (for Karlach)
 - [ ] **Talk to Halsin** and everyone at camp. Long rest regularly.
 - [ ] Rebuild **Astarion's** approval (Neutral 2): watch what he likes.
-- [ ] **Spend some gold** (5,140) on gear upgrades.
+- [ ] **Spend some gold** (5,140) on gear upgrades. Priorities: a weapon and armour for Karlach, a real ring for Changuine and Gale, maybe an off-hand weapon for Changuine.
 - [ ] Have a **spare magic item** handy in case Gale asks again (his journal says to keep one ready).
 
 ## Next point of no return

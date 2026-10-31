@@ -43,7 +43,21 @@ Opportunity Attack · **Riposte**
 Armour ×4 · Simple ×12 · Martial ×19
 
 ## Equipment
-_Not logged yet._
+_From the equipment video, 2026-10-31._
+| Slot | Item | Rarity | Notes |
+|---|---|---|---|
+| Head | **Haste Helm** | Rare | Smooth Start: Momentum for 3 turns at the start of combat |
+| Body | **Chain Mail +1** | Uncommon | Heavy, AC 17. Superior Material: takes 1 less slashing damage. Stealth disadvantage. |
+| Hands | **Gloves of the Growling Underdog** | Uncommon | Underdog's Bravery: advantage on attacks when surrounded by 2+ enemies. +1 STR saves. |
+| Feet | **The Speedy Lightfeet** | Rare | Speedy Sparks: Dashing gives 3 Lightning Charges. +1 Athletics. |
+| Neck | **Amulet of Misty Step** | Uncommon | Gives **Misty Step** |
+| Ring | Crusher's Ring | Uncommon | +3 m movement speed |
+| Ring 2 | _empty (?)_ | | |
+| Main hand | **Sword of Justice** | Uncommon | Greatsword, 7–17, +1. Gives **Tyr's Protection**. |
+| Ranged | **Titanstring Bow** | Rare | Longbow, 3–10. Titan Weapon: adds STR to damage. |
+| Camp | Lae'zel's Clothes · Tasteful Boots · Lae'zel's Underwear | | Cosmetic |
+
+Her gear makes her fast: Crusher's Ring plus Speedy Lightfeet and Haste Helm. That explains the 12 m speed.
 
 ## Story
 - Approval: **Medium (28)**.

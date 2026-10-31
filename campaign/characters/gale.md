@@ -17,7 +17,7 @@
 | Initiative | +1 |
 | Speed | 9 m |
 | Darkvision | none (2 m) |
-| Melee | +2 to hit (spiked club + shield) |
+| Melee | +2 to hit (Staff of Crones + Absolute's Warrant shield) |
 | Ranged | +1 to hit, 2–9 |
 | Spellcasting | INT · save DC 15 · +7 spell attack · Arcane Recovery 3 |
 | Spells | 4 cantrips · 9 / 9 prepared (L1 ×6+, L2 ×4, L3 ×2) |
@@ -43,7 +43,19 @@ Sculpt Spells · Absolute's Ward (?) · Writhing Dance · Swift Strides · Runni
 Armour ×2 · Simple ×4 · Martial ×3
 
 ## Equipment
-_Not logged yet._
+_From the equipment video, 2026-10-31._
+| Slot | Item | Rarity | Notes |
+|---|---|---|---|
+| Head | Leather Helmet | Common | +1 DEX saving throws |
+| Body | Studded Leather Armour | Common | AC 12 (+DEX) |
+| Hands | **Fleetfingers** | Uncommon | Running Jump: after a Dash, jump without a bonus action |
+| Feet | **Springstep Boots** | Rare | Swift Strides: Dashing gives Momentum for 3 turns |
+| Neck | **Moondrop Pendant** | Uncommon | Writhing Dance: below 50% HP, no opportunity attacks against him |
+| Ring | 'Magic' Ring | Common | **No real effect** (as far as I can read). Free slot. |
+| Main hand | **Staff of Crones** | Uncommon | 0–5. Gives **Ray of Sickness**. |
+| Off hand | **Absolute's Warrant** | Uncommon | Shield, +2 AC. Absolute's Ward: +1 to saves when the Absolute's sound is heard (?) |
+| Ranged | Longbow | Common | 2–9 |
+| Camp | Gale's Austere Clothes · Tasteful Boots · Netherese Briefs | | Cosmetic |
 
 ## Story
 - Approval: **Very High (72)**.

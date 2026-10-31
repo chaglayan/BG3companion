@@ -34,6 +34,14 @@ Drow had **abducted Grand Duke Ravengard** from the inn. **Counsellor Florrick**
 ### The book in the cellar
 You found ***The Necromancy of Thay***, unlocked it with a keygem and read most of it. It snapped shut before the last page, which you can't decipher yet.
 
+### The tadpole's "gifts"
+A mysterious **Dream Visitor** keeps appearing in your dreams, saying your tadpole is special, a source of great potential. You've started using its power. You absorbed the memories of a **True Soul** parasite and grew stronger for it, and the Dream Visitor wants you to find more.
+
+Meanwhile, a **strange artefact Shadowheart carries** seems to have **shielded you all from a horrible voice**. Nobody knows what it is yet.
+
+### The Nightsong
+A wizard in Baldur's Gate offers a fortune for something called **the Nightsong**. The dwarf **Brian** had a map to it before goblins killed him. A poem about Selûne mentions a **door under the temple** in the Goblin Camp.
+
 ### Your companions
 - **Shadowheart**: secretly a cleric of **Shar**, on a mission to Baldur's Gate she can't fully remember, because she let her memories be suppressed. Her **wound that never heals** was given to her by the **Mother Superior** who raised her. She dreams of becoming a **Dark Justiciar**. You've seen Dark Justiciar murals, and a Selûne temple they razed. **You promised to help ease her pain.**
 - **Astarion**: a pale elf who turned out to be a **vampire**. You caught him drinking someone's blood at night and warned him never to do it again. He was **enslaved by the Szarr family** and fears he still can't refuse their orders. *(He's not thrilled with you right now: approval 2.)*

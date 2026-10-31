@@ -19,8 +19,8 @@ Tags: Humanoid, One-Eyed, Seldarine, Underdark, Drow, Rogue
 | Initiative | +7 |
 | Speed | 9 m |
 | Darkvision | 24 m (Superior) |
-| Melee | +11 to hit, 6–13 damage, main hand only (off-hand empty) |
-| Ranged | Two hand crossbows, +10 to hit, 5–12 damage |
+| Melee | Rupturing Blade, +11 to hit, 6–13 damage (off-hand empty) |
+| Ranged | Light Crossbow, +10 to hit, 5–12 damage |
 | Spellcasting | None from class. Drow racial spells and 1 cantrip from the Rogue tab. |
 | Illithid powers | Luck of the Far Realms |
 | Carry | 109 / 150 kg |
@@ -50,7 +50,23 @@ Opportunity Attack · Rakish Sneak Attack · Rakish Sneak Attack (Critical Hit) 
 Armour ×1 · Simple weapons ×12 · Martial weapons ×4 · no instruments
 
 ## Equipment
-_Not logged yet._ Carries all **5,140 gold**.
+_From the equipment video, 2026-10-31. Effects are only noted where the tooltip was legible._
+| Slot | Item | Rarity | Notes |
+|---|---|---|---|
+| Head | Leather Helmet | Common | +1 DEX saving throws |
+| Body | Leather Armour +1 | Uncommon | AC 12 (+DEX). Stealthy: +1 to Stealth checks (?) |
+| Hands | **Gloves of Power** | Uncommon | Absolute's Bane: weapon hits can apply a penalty to the target's attacks/saves (?). Source of the "Absolute's Bane" feature. |
+| Feet | **The Watersparkers** | Rare | Electrify Water, Waterspark: Lightning Charges near water. Source of those two features. |
+| Neck | Silver Pendant | Uncommon | Gives the **Guidance** cantrip |
+| Ring 1 | Ring of Colour Spray | Uncommon | Gives **Colour Spray** (level 1 spell) |
+| Ring 2 | Polished Ring | Common | **No effect.** Free slot for an upgrade. |
+| Main hand | **Rupturing Blade** | Uncommon | 6–13 (1d8+5 slashing), +1 enchantment, can inflict bleeding/wounds (?) |
+| Off hand | — | | **Empty** |
+| Ranged | Light Crossbow | Common | 5–12, two-handed |
+| Instrument | Lyre | Common | |
+| Camp | Comfortable Autumnal Outfit · Elfin Woodsoles · Underwear | | Cosmetic |
+
+Carries all **5,140 gold** and camp supplies (1,658).
 
 ## Story
 - Main goal: **cure the tadpole**. Tried Nettie and Auntie Ethel, and rescued Halsin. Current lead: Lae'zel's **githyanki crèche** near the northwest mountain pass.

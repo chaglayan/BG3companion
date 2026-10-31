@@ -37,4 +37,10 @@ Also at camp: the dog, and others (_not logged_).
 - [ ] **Karlach has no weapon equipped.** Give her a two-hander.
 - [ ] Karlach took the **Heavily Armoured** feat. I think Rage doesn't work in heavy armour, so it may be wasted on her. See [karlach.md](karlach.md).
 - [ ] Long rest. Changuine, Astarion, Gale and Lae'zel are all below max HP.
-- [ ] Equipment isn't logged yet (see "Equipment" in each file).
+- [x] Equipment logged for Changuine, Astarion, Gale and Lae'zel (2026-10-31). Wyll, Shadowheart and Karlach aren't logged yet.
+
+## Gear notes
+- **Two "dud" rings:** Changuine's *Polished Ring* and Gale's *'Magic' Ring* do nothing (I think). Swap in any ring with an effect you find.
+- **Changuine's off-hand is empty.** I think Rupturing Blade (1d8) isn't a Light weapon, so dual-wielding it would need the Dual Wielder feat. Otherwise, use a Light weapon in each hand (shortsword, scimitar, dagger) for a bonus-action off-hand attack. Check the weapon tooltips before deciding.
+- **Lots of "Dash" gear:** Gale (Springstep, Fleetfingers), Lae'zel (Speedy Lightfeet) and Astarion (Linebreaker). Dashing in combat actually gives these three bonuses.
+- **Astarion = healer bard:** Cap of Curing, Blazer of Benevolence and Whispering Promise all buff his Bardic Inspiration. Use it every turn.

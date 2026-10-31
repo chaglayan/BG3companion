@@ -43,7 +43,23 @@ Opportunity Attack
 Armour ×1 · Simple ×12 · Martial ×5 · Musical instruments ✓
 
 ## Equipment
-_Not logged yet._
+_From the equipment video, 2026-10-31._
+| Slot | Item | Rarity | Notes |
+|---|---|---|---|
+| Head | **Cap of Curing** | Uncommon | Soothing Songs: Bardic Inspiration also heals 1–6 |
+| Body | **Blazer of Benevolence** | Uncommon | Light armour, AC 11. Remedial Rhymes: Bardic Inspiration also gives 4 temp HP. |
+| Hands | Gloves of Hail of Thorns | Uncommon | Gives **Hail of Thorns** (level 1 spell) |
+| Feet | **Linebreaker Boots** | Rare | Adrenaline Rush: when you Dash, gain temp HP (?) |
+| Neck | _not seen_ | | |
+| Ring | **The Whispering Promise** | Uncommon | Blessed Mercy: healing someone gives them +1d4 to attacks and saves for 2 turns |
+| Ring 2 | _not seen_ | | |
+| Main hand | Steelforged Sword (?) | Uncommon | 5–10 piercing, +1 enchantment |
+| Off hand | Dagger +1 | Uncommon | 2–5 |
+| Ranged | **The Joltshooter** | Rare | Longbow, 4–11. Electric Blood: Lightning Charges on hits. |
+| Instrument | **Spider's Lyre** | Very rare (?) | Play the Spider's Lyre: a special action |
+| Camp | Astarion's Eccentric Clothes | | Cosmetic |
+
+His gear is fully built around **healing through Bardic Inspiration**. Nice support kit.
 
 ## Story
 - Approval: ⚠️ **Neutral (2)**, the lowest in the party.
