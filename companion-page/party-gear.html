@@ -1,0 +1,511 @@
+<title>Changuine's Party Gear</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Alegreya+Sans:wght@400;500;700&display=swap">
+<style>
+/* Layout: a camp ledger. Character tabs across the top, one sheet per character: summary, then what needs doing, then the gear by slot. */
+:root {
+  --ink: #13151d;
+  --panel: #1b1e29;
+  --panel-2: #222636;
+  --line: #303548;
+  --fg: #ebe4d3;
+  --muted: #a39b8a;
+  --gold: #c9a45c;
+  --gold-soft: rgba(201,164,92,.14);
+  --r-common: #c9c4b9;
+  --r-uncommon: #63c270;
+  --r-rare: #55a8e6;
+  --r-veryrare: #b583e6;
+  --crit: #e5705f;
+  --warn: #dbb54c;
+  --ok: #63c270;
+  --display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --body: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--ink);
+  color: var(--fg);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 48px;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--ink); }
+.wrap { max-width: 980px; margin: 0 auto; display: grid; gap: 22px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(30px, 6vw, 44px); letter-spacing: .01em; }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
+.eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+.muted { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+
+header.top { display: grid; gap: 8px; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
+.savebar { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--muted); font-size: 14px; }
+.savebar b { color: var(--fg); font-weight: 500; }
+
+nav.tabs {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--ink);
+  display: flex; gap: 8px; overflow-x: auto; padding-block: 8px;
+  scrollbar-width: thin;
+}
+.tab {
+  flex: 0 0 auto; display: flex; align-items: center; gap: 8px;
+  background: var(--panel); color: var(--fg); border: 1px solid var(--line);
+  border-radius: 999px; padding: 6px 14px 6px 6px; cursor: pointer;
+  font: 500 15px var(--body); text-decoration: none;
+}
+.tab:hover { border-color: var(--gold); }
+.tab:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.tab[aria-current="page"] { background: var(--gold-soft); border-color: var(--gold); }
+.tab.party { padding-left: 14px; }
+.mono {
+  width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center;
+  font: 700 14px var(--display); color: var(--ink); background: var(--c, var(--gold));
+}
+.tab .flag { font-size: 12px; font-weight: 700; color: var(--ink); background: var(--warn); border-radius: 999px; padding: 0 7px; }
+.tab .flag.crit { background: var(--crit); }
+
+section.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 14px; min-width: 0; }
+
+/* Character header */
+.charhead { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center; }
+.charhead .mono { width: 58px; height: 58px; font-size: 28px; }
+.charhead .sub { color: var(--muted); }
+.statrow { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+.stat { background: var(--panel-2); border-radius: 8px; padding: 10px 12px; display: grid; gap: 2px; }
+.stat .k { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.stat .v { font: 600 22px var(--display); }
+.abil { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.abil div { background: var(--panel-2); border-radius: 8px; text-align: center; padding: 6px 0; }
+.abil .k { font-size: 11px; letter-spacing: .1em; color: var(--muted); }
+.abil .v { font: 600 20px var(--display); }
+.abil .hi { color: var(--gold); }
+
+.approval { display: grid; gap: 4px; }
+.meter { height: 8px; background: var(--panel-2); border-radius: 999px; position: relative; overflow: hidden; }
+.meter i { position: absolute; top: 0; bottom: 0; left: 50%; background: var(--gold); border-radius: 999px; }
+.meter::after { content: ""; position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--muted); opacity: .6; }
+
+/* Needs list */
+ul.needs { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+ul.needs li { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; background: var(--panel-2); border-radius: 8px; padding: 10px 12px; }
+.pill { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; border-radius: 4px; padding: 2px 7px; color: var(--ink); white-space: nowrap; margin-top: 2px; }
+.pill.crit { background: var(--crit); }
+.pill.warn { background: var(--warn); }
+.pill.tip { background: var(--r-rare); }
+.pill.ok { background: var(--ok); }
+ul.needs .who { color: var(--gold); font-weight: 700; }
+
+/* Gear */
+.gear { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.slot { border: 1px solid var(--line); border-left: 4px solid var(--rc, var(--line)); border-radius: 8px; padding: 10px 12px; display: grid; gap: 3px; min-width: 0; background: var(--panel-2); }
+.slot .k { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; }
+.slot .name { font-weight: 700; color: var(--rc, var(--fg)); }
+.slot .note { font-size: 14px; color: var(--muted); }
+.slot.empty { border-style: dashed; border-left-style: dashed; background: transparent; }
+.slot.empty .name { color: var(--muted); font-weight: 500; font-style: italic; }
+.slot .tag { font-size: 10px; font-weight: 700; letter-spacing: .08em; padding: 1px 6px; border-radius: 3px; color: var(--ink); }
+.slot .tag.dud { background: var(--warn); }
+.slot .tag.empty { background: var(--muted); }
+.slot .tag.crit { background: var(--crit); }
+.r-common { --rc: var(--r-common); }
+.r-uncommon { --rc: var(--r-uncommon); }
+.r-rare { --rc: var(--r-rare); }
+.r-veryrare { --rc: var(--r-veryrare); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: var(--rc); margin-right: 6px; vertical-align: -1px; }
+
+ul.ideas { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+ul.ideas li::marker { color: var(--gold); }
+.camp { font-size: 14px; color: var(--muted); }
+
+/* Party overview */
+.roster { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+.mini { background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px; display: grid; gap: 8px; cursor: pointer; text-align: left; color: var(--fg); font: inherit; }
+.mini:hover { border-color: var(--gold); }
+.mini .row { display: flex; align-items: center; gap: 10px; }
+.mini .meta { font-size: 13px; color: var(--muted); }
+.mini .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.where { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; }
+.where.party { color: var(--gold); border-color: var(--gold); }
+
+footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 14px; }
+@media (max-width: 480px) {
+  .abil { grid-template-columns: repeat(3, 1fr); }
+  .charhead .mono { width: 46px; height: 46px; font-size: 22px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .view { animation: in .18s ease-out; }
+  @keyframes in { from { opacity: .4; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Baldur's Gate 3 · party ledger</div>
+    <h1 id="title">Changuine's Party</h1>
+    <div class="savebar" id="savebar"></div>
+  </header>
+  <nav class="tabs" id="tabs" aria-label="Characters"></nav>
+  <main id="view" class="view"></main>
+  <footer id="foot"></footer>
+</div>
+
+<script type="application/json" id="party-data">
+{
+  "updated": "31 Oct 2026",
+  "save": { "act": "Act 1 (late)", "where": "Heading into the Underdark", "lastSave": "18 Mar 2026", "playtime": "41h 55m", "difficulty": "Balanced", "gold": 5140 },
+  "party": [
+    {
+      "id": "changuine", "name": "Changuine", "you": true, "color": "#c9a45c",
+      "race": "Seldarine Drow", "cls": "Rogue", "sub": "Swashbuckler", "level": 5, "levelUp": false,
+      "where": "party", "hp": 38, "ac": 16, "approval": null,
+      "abil": [11, 18, 14, 12, 11, 10],
+      "bestAt": "Perception +6, Insight +6, Arcana/History/Investigation +4",
+      "gear": [
+        { "slot": "Head", "name": "Leather Helmet", "r": "common", "note": "+1 DEX saving throws" },
+        { "slot": "Body", "name": "Leather Armour +1", "r": "uncommon", "note": "AC 12 + DEX" },
+        { "slot": "Hands", "name": "Gloves of Power", "r": "uncommon", "note": "Absolute's Bane on weapon hits" },
+        { "slot": "Feet", "name": "The Watersparkers", "r": "rare", "note": "Lightning Charges around water" },
+        { "slot": "Neck", "name": "Silver Pendant", "r": "uncommon", "note": "Guidance cantrip" },
+        { "slot": "Ring", "name": "Ring of Colour Spray", "r": "uncommon", "note": "Colour Spray spell" },
+        { "slot": "Ring", "name": "Polished Ring", "r": "common", "note": "No effect", "flag": "dud" },
+        { "slot": "Main hand", "name": "Rupturing Blade", "r": "uncommon", "note": "6–13, +1, can inflict bleeding (?)" },
+        { "slot": "Off hand", "name": null, "flag": "empty" },
+        { "slot": "Ranged", "name": "Light Crossbow", "r": "common", "note": "5–12, two-handed" }
+      ],
+      "camp": "Comfortable Autumnal Outfit, Elfin Woodsoles, Lyre",
+      "needs": [
+        { "s": "warn", "t": "Off hand is empty. You're giving up a bonus-action attack every turn." },
+        { "s": "warn", "t": "Polished Ring does nothing. That's a free ring slot." },
+        { "s": "tip", "t": "Not proficient in Stealth or Sleight of Hand. Let Astarion pick locks and disarm traps." }
+      ],
+      "ideas": [
+        "Off hand: two Light weapons (dagger, shortsword, scimitar) let you attack with your bonus action. Rupturing Blade (1d8) is probably not Light, so you'd swap your main hand or take Dual Wielder at level 8.",
+        "Light armour with a higher base or a +bonus. With DEX 18 you get the full +4 from light armour.",
+        "Any ring with an effect for slot 2. Rings that add damage or Sneak Attack value help a Rogue most.",
+        "Persuasion is only +3. A Charisma or Persuasion item helps if you want Changuine to do the talking."
+      ]
+    },
+    {
+      "id": "astarion", "name": "Astarion", "color": "#c7b7d6",
+      "race": "High Elf", "cls": "Bard", "sub": "College of Glamour", "level": 5, "levelUp": false,
+      "where": "party", "hp": 33, "ac": 14, "approval": 2,
+      "abil": [8, 16, 13, 12, 10, 18],
+      "bestAt": "Intimidation +10, Performance +10, Deception +7, Sleight of Hand +6 (locks, traps)",
+      "gear": [
+        { "slot": "Head", "name": "Cap of Curing", "r": "uncommon", "note": "Bardic Inspiration also heals 1–6" },
+        { "slot": "Body", "name": "Blazer of Benevolence", "r": "uncommon", "note": "AC 11 + DEX. Inspiration gives 4 temp HP." },
+        { "slot": "Hands", "name": "Gloves of Hail of Thorns", "r": "uncommon", "note": "Hail of Thorns spell" },
+        { "slot": "Feet", "name": "Linebreaker Boots", "r": "rare", "note": "Dash for a bonus (?)" },
+        { "slot": "Neck", "name": "Not seen", "flag": "unknown" },
+        { "slot": "Ring", "name": "The Whispering Promise", "r": "uncommon", "note": "Healing gives +1d4 to attacks and saves" },
+        { "slot": "Ring", "name": "Not seen", "flag": "unknown" },
+        { "slot": "Main hand", "name": "Steelforged Sword (?)", "r": "uncommon", "note": "5–10, +1" },
+        { "slot": "Off hand", "name": "Dagger +1", "r": "uncommon", "note": "2–5" },
+        { "slot": "Ranged", "name": "The Joltshooter", "r": "rare", "note": "Longbow 4–11, Lightning Charges" },
+        { "slot": "Instrument", "name": "Spider's Lyre", "r": "veryrare", "note": "Special lyre action (?)" }
+      ],
+      "camp": "Astarion's Eccentric Clothes",
+      "needs": [
+        { "s": "crit", "t": "Approval is Neutral (2), the lowest in the party. Watch what he reacts to." },
+        { "s": "tip", "t": "Use Bardic Inspiration every turn. His hat, armour and ring all add healing or temp HP to it." },
+        { "s": "tip", "t": "Neck and second ring weren't in the video. Check whether they're empty." }
+      ],
+      "ideas": [
+        "Anything that adds Charisma or raises spell save DC (now 15) makes his spells land more often.",
+        "If his neck or second ring slot is empty, any effect is an upgrade.",
+        "He's your face: let him start conversations that need Intimidation or Deception."
+      ]
+    },
+    {
+      "id": "gale", "name": "Gale", "color": "#8d7fd6",
+      "race": "Human", "cls": "Wizard", "sub": "Evocation", "level": 5, "levelUp": false,
+      "where": "party", "hp": 37, "ac": 15, "approval": 72,
+      "abil": [8, 13, 16, 18, 10, 12],
+      "bestAt": "Arcana, History, Investigation +7 (books, magic, puzzles)",
+      "gear": [
+        { "slot": "Head", "name": "Leather Helmet", "r": "common", "note": "+1 DEX saving throws" },
+        { "slot": "Body", "name": "Studded Leather Armour", "r": "common", "note": "AC 12 + DEX" },
+        { "slot": "Hands", "name": "Fleetfingers", "r": "uncommon", "note": "Jump free after Dashing" },
+        { "slot": "Feet", "name": "Springstep Boots", "r": "rare", "note": "Dashing gives Momentum" },
+        { "slot": "Neck", "name": "Moondrop Pendant", "r": "uncommon", "note": "Below 50% HP: no opportunity attacks against him" },
+        { "slot": "Ring", "name": "'Magic' Ring", "r": "common", "note": "No real effect", "flag": "dud" },
+        { "slot": "Main hand", "name": "Staff of Crones", "r": "uncommon", "note": "Ray of Sickness spell" },
+        { "slot": "Off hand", "name": "Absolute's Warrant", "r": "uncommon", "note": "Shield +2 AC" },
+        { "slot": "Ranged", "name": "Longbow", "r": "common", "note": "2–9" }
+      ],
+      "camp": "Gale's Austere Clothes, Tasteful Boots",
+      "needs": [
+        { "s": "warn", "t": "'Magic' Ring does nothing. That's a free ring slot." },
+        { "s": "warn", "t": "Keep a spare magic item ready. His journal says he'll ask again." },
+        { "s": "tip", "t": "Counterspell is set as a reaction. Keep a level 3 slot free for it in caster fights." }
+      ],
+      "ideas": [
+        "Gear that raises spell save DC or spell attack (now DC 15 / +7) helps him most.",
+        "Rings and amulets that boost damage spells (fire, lightning, cold) suit an Evoker.",
+        "His helmet and armour are basic. Light armour with a +bonus is an easy AC gain."
+      ]
+    },
+    {
+      "id": "laezel", "name": "Lae'zel", "color": "#7fbf8f",
+      "race": "Githyanki", "cls": "Fighter", "sub": "Battle Master", "level": 5, "levelUp": false,
+      "where": "party", "hp": 49, "ac": 17, "approval": 28,
+      "abil": [18, 13, 16, 10, 12, 8],
+      "bestAt": "Athletics +8 (shoves, jumps), Survival +4",
+      "gear": [
+        { "slot": "Head", "name": "Haste Helm", "r": "rare", "note": "Momentum at the start of combat" },
+        { "slot": "Body", "name": "Chain Mail +1", "r": "uncommon", "note": "AC 17, takes 1 less slashing damage" },
+        { "slot": "Hands", "name": "Gloves of the Growling Underdog", "r": "uncommon", "note": "Advantage when surrounded, +1 STR saves" },
+        { "slot": "Feet", "name": "The Speedy Lightfeet", "r": "rare", "note": "Dash gives Lightning Charges, +1 Athletics" },
+        { "slot": "Neck", "name": "Amulet of Misty Step", "r": "uncommon", "note": "Misty Step spell" },
+        { "slot": "Ring", "name": "Crusher's Ring", "r": "uncommon", "note": "+3 m movement" },
+        { "slot": "Ring", "name": "Empty (?)", "flag": "empty" },
+        { "slot": "Main hand", "name": "Sword of Justice", "r": "uncommon", "note": "Greatsword 7–17, +1, Tyr's Protection" },
+        { "slot": "Ranged", "name": "Titanstring Bow", "r": "rare", "note": "3–10, adds STR to damage" }
+      ],
+      "camp": "Lae'zel's Clothes, Tasteful Boots",
+      "needs": [
+        { "s": "tip", "t": "Keep her in the party for the githyanki crèche lead (northwest)." },
+        { "s": "warn", "t": "Second ring slot looks empty." }
+      ],
+      "ideas": [
+        "Second ring: anything that adds damage or attack bonus.",
+        "Heavier armour (splint, plate) when you find or can afford it. She's proficient in all armour.",
+        "She's already well geared. Spend gold on the others first."
+      ]
+    },
+    {
+      "id": "wyll", "name": "Wyll", "color": "#d98a6a",
+      "race": "Human", "cls": "Warlock", "sub": "The Fiend", "level": 4, "levelUp": true,
+      "where": "camp", "hp": 31, "ac": 13, "approval": 55,
+      "abil": [8, 13, 14, 13, 10, 18],
+      "bestAt": "Deception +8, Performance +8, Persuasion +6",
+      "gear": [
+        { "slot": "Head", "name": null, "flag": "empty" },
+        { "slot": "Body", "name": "Poisoner's Robe", "r": "uncommon", "note": "Clothing. Poison spells deal +1–4." },
+        { "slot": "Hands", "name": "Bracers of Defence", "r": "rare", "note": "+2 AC with no armour and no shield" },
+        { "slot": "Feet", "name": null, "flag": "empty" },
+        { "slot": "Neck", "name": null, "flag": "empty" },
+        { "slot": "Ring", "name": "Silver Band", "r": "common", "note": "No effect", "flag": "dud" },
+        { "slot": "Main hand", "name": "Rapier", "r": "common", "note": "2–9" },
+        { "slot": "Ranged", "name": "Goblin Bow", "r": "common", "note": "2–7" }
+      ],
+      "camp": "Wyll's Earthy Garb, Tasteful Boots",
+      "needs": [
+        { "s": "crit", "t": "Level-up waiting (4 → 5). He gets 3rd-level spell slots." },
+        { "s": "warn", "t": "Head, boots and neck are empty, and his ring does nothing." },
+        { "s": "tip", "t": "Keep him out of armour. Bracers of Defence only work unarmoured." }
+      ],
+      "ideas": [
+        "Anything that boosts Eldritch Blast or Charisma is his biggest upgrade. His weapons barely matter.",
+        "Boots, a hat and an amulet: any effect at all is better than nothing.",
+        "His robe boosts poison spells. Worth picking a poison spell at level-up if one fits."
+      ]
+    },
+    {
+      "id": "shadowheart", "name": "Shadowheart", "color": "#a9b8c9",
+      "race": "High Half-Elf", "cls": "Cleric", "sub": "Trickery Domain", "level": 4, "levelUp": true,
+      "where": "camp", "hp": 31, "ac": 17, "approval": 52,
+      "abil": [13, 13, 14, 10, 17, 8],
+      "bestAt": "Insight +5, Medicine +5",
+      "gear": [
+        { "slot": "Head", "name": null, "flag": "empty" },
+        { "slot": "Body", "name": "Scale Mail", "r": "common", "note": "Medium, AC 14 + DEX (max 2)" },
+        { "slot": "Hands", "name": null, "flag": "empty" },
+        { "slot": "Feet", "name": null, "flag": "empty" },
+        { "slot": "Neck", "name": null, "flag": "empty" },
+        { "slot": "Ring", "name": "Carnelian Ring", "r": "common", "note": "No effect", "flag": "dud" },
+        { "slot": "Main hand", "name": "Shattered Flail", "r": "rare", "note": "4–9, +2. Hits heal her 1–6, but she can go Mad if she doesn't hit each turn." },
+        { "slot": "Off hand", "name": "Glowing Shield", "r": "uncommon", "note": "+2 AC, 8 temp HP when low (once per short rest)" },
+        { "slot": "Ranged", "name": "Light Crossbow", "r": "common", "note": "2–9" }
+      ],
+      "camp": "Shadowheart's Clothes, Acolyte's Sandals",
+      "needs": [
+        { "s": "crit", "t": "Level-up waiting (4 → 5). She gets 3rd-level spells." },
+        { "s": "warn", "t": "Head, hands, boots and neck are empty, and her ring does nothing. She's the least geared." },
+        { "s": "tip", "t": "The Shattered Flail can make her go Mad if she spends a turn not hitting. Swap it out if she's mostly healing." }
+      ],
+      "ideas": [
+        "Wisdom or spell-DC gear (now DC 13) makes her spells stick.",
+        "Better medium armour (half plate, breastplate) is an easy AC gain.",
+        "Fill the four empty slots. Gloves, boots, hat and amulet from any trader are pure upside.",
+        "WIS 17 is odd. A +1 WIS feat at level 8 rounds it up."
+      ]
+    },
+    {
+      "id": "karlach", "name": "Karlach", "color": "#e5705f",
+      "race": "Zariel Tiefling", "cls": "Barbarian", "sub": "Wildheart", "level": 4, "levelUp": true,
+      "where": "camp", "hp": 41, "ac": 13, "approval": 29,
+      "abil": [18, 13, 15, 8, 12, 10],
+      "bestAt": "Athletics +6",
+      "gear": [
+        { "slot": "Head", "name": null, "flag": "empty" },
+        { "slot": "Body", "name": null, "flag": "empty", "note": "Fine for a Barbarian (Unarmoured Defence)" },
+        { "slot": "Hands", "name": "Reason's Grasp (?)", "r": "uncommon", "note": "Temp HP when ending Rage (?)" },
+        { "slot": "Feet", "name": null, "flag": "empty" },
+        { "slot": "Neck", "name": null, "flag": "empty" },
+        { "slot": "Ring", "name": "Copper Ring", "r": "common", "note": "No effect", "flag": "dud" },
+        { "slot": "Main hand", "name": null, "flag": "crit", "note": "No weapon. She's punching." },
+        { "slot": "Ranged", "name": null, "flag": "empty" }
+      ],
+      "camp": "Karlach's Infernal Trousers, Tasteful Boots, Hand Drum",
+      "needs": [
+        { "s": "crit", "t": "No weapon equipped. Give her a two-handed weapon (greataxe, greatsword, maul)." },
+        { "s": "crit", "t": "Level-up waiting (4 → 5). She gets Extra Attack, a huge jump." },
+        { "s": "warn", "t": "Her Heavily Armoured feat is probably wasted. I think Rage doesn't work in heavy armour. Withers can respec her (100 gold)." },
+        { "s": "warn", "t": "Head, boots, neck and ranged are empty, and her ring does nothing." }
+      ],
+      "ideas": [
+        "Weapon first. Any two-hander with a +1 or better is a big jump.",
+        "At respec: Great Weapon Master or +2 STR instead of Heavily Armoured.",
+        "Any throwing weapon or bow in the ranged slot, for enemies she can't reach.",
+        "Gear that adds Rage damage or HP fits her playstyle."
+      ]
+    }
+  ],
+  "shopping": [
+    "A two-handed weapon for Karlach",
+    "Rings with real effects (5 duds: Changuine, Gale, Wyll, Shadowheart, Karlach)",
+    "Boots, hats and amulets for Wyll, Shadowheart and Karlach",
+    "Light weapon(s) for Changuine's off-hand",
+    "A spare magic item for Gale's condition"
+  ]
+}
+</script>
+
+<script>
+(function () {
+  var raw = document.getElementById('party-data').textContent;
+  var data = JSON.parse(raw);
+  data.party = data.party.filter(function (c) { return c && typeof c === 'object'; });
+  var ABIL = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA'];
+  var SEV = { crit: 0, warn: 1, tip: 2 };
+  var SEVLABEL = { crit: 'Now', warn: 'Soon', tip: 'Tip' };
+  var RLABEL = { common: 'Common', uncommon: 'Uncommon', rare: 'Rare', veryrare: 'Very rare' };
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]; }); }
+  function mono(c) { return '<span class="mono" style="--c:' + esc(c.color) + '">' + esc(c.name.charAt(0)) + '</span>'; }
+  function critCount(c) { return c.needs.filter(function (n) { return n.s === 'crit'; }).length; }
+  function warnCount(c) { return c.needs.filter(function (n) { return n.s !== 'tip'; }).length; }
+  function approvalWord(a) { if (a == null) return ''; if (a >= 60) return 'Very High'; if (a >= 40) return 'High'; if (a >= 20) return 'Medium'; if (a > -20) return 'Neutral'; return 'Low'; }
+
+  var s = data.save;
+  document.getElementById('savebar').innerHTML =
+    '<span><b>' + esc(s.act) + '</b></span>' +
+    '<span>' + esc(s.where) + '</span>' +
+    '<span>Last save <b>' + esc(s.lastSave) + '</b> · ' + esc(s.playtime) + '</span>' +
+    '<span>' + esc(s.difficulty) + '</span>' +
+    '<span>Gold <b class="num">' + Number(s.gold).toLocaleString('en-GB') + '</b></span>';
+  document.getElementById('foot').innerHTML = 'Updated ' + esc(data.updated) + ' from your photos. Tell Claude when gear or levels change and this page gets updated. <span class="muted">(?) = text I couldn\'t read clearly.</span>';
+
+  function renderTabs(active) {
+    var html = '<a class="tab party" href="#party"' + (active === 'party' ? ' aria-current="page"' : '') + '>Party</a>';
+    data.party.forEach(function (c) {
+      var n = warnCount(c), cr = critCount(c);
+      html += '<a class="tab" href="#' + c.id + '"' + (active === c.id ? ' aria-current="page"' : '') + '>' + mono(c) + esc(c.name) +
+        (n ? ' <span class="flag' + (cr ? ' crit' : '') + '" title="' + n + ' to fix">' + n + '</span>' : '') + '</a>';
+    });
+    document.getElementById('tabs').innerHTML = html;
+  }
+
+  function approvalBlock(a) {
+    if (a == null) return '';
+    var pct = Math.min(100, Math.abs(a)) / 2;
+    var style = a >= 0 ? 'left:50%;width:' + pct + '%' : 'right:50%;left:auto;width:' + pct + '%';
+    return '<div class="stat approval"><span class="k">Approval</span><span class="v num">' + a + ' <span class="muted" style="font-size:15px">' + approvalWord(a) + '</span></span><div class="meter" aria-hidden="true"><i style="' + style + '"></i></div></div>';
+  }
+
+  function needsList(items, withWho) {
+    if (!items.length) return '<p class="muted">Nothing urgent.</p>';
+    return '<ul class="needs">' + items.map(function (n) {
+      return '<li><span class="pill ' + n.s + '">' + SEVLABEL[n.s] + '</span><span>' + (withWho ? '<span class="who">' + esc(n.who) + ':</span> ' : '') + esc(n.t) + '</span></li>';
+    }).join('') + '</ul>';
+  }
+
+  function slotCard(g) {
+    var cls = 'slot', tag = '';
+    if (g.flag === 'empty' || g.flag === 'crit' || g.flag === 'unknown' || !g.name) cls += ' empty';
+    if (g.r) cls += ' r-' + g.r;
+    if (g.flag === 'dud') tag = '<span class="tag dud">Dud</span>';
+    else if (g.flag === 'crit') tag = '<span class="tag crit">Missing</span>';
+    else if (g.flag === 'empty') tag = '<span class="tag empty">Empty</span>';
+    else if (g.r) tag = '<span>' + RLABEL[g.r] + '</span>';
+    var name = g.name || (g.flag === 'crit' ? 'Nothing equipped' : 'Empty slot');
+    return '<div class="' + cls + '"><div class="k"><span>' + esc(g.slot) + '</span>' + tag + '</div>' +
+      '<div class="name">' + esc(name) + '</div>' + (g.note ? '<div class="note">' + esc(g.note) + '</div>' : '') + '</div>';
+  }
+
+  function renderChar(c) {
+    var needs = c.needs.slice().sort(function (a, b) { return SEV[a.s] - SEV[b.s]; });
+    var abil = c.abil.map(function (v, i) { return '<div><div class="k">' + ABIL[i] + '</div><div class="v num' + (v >= 16 ? ' hi' : '') + '">' + v + '</div></div>'; }).join('');
+    return '' +
+      '<div style="display:grid;gap:16px">' +
+      '<section class="card">' +
+        '<div class="charhead">' + mono(c) + '<div><h2>' + esc(c.name) + (c.you ? ' <span class="muted" style="font-size:16px">(you)</span>' : '') + '</h2>' +
+        '<div class="sub">' + esc(c.race) + ' · ' + esc(c.cls) + ' ' + c.level + ' · ' + esc(c.sub) + ' · <span class="where ' + c.where + '">' + (c.where === 'party' ? 'In party' : 'At camp') + '</span>' +
+        (c.levelUp ? ' <span class="pill crit" style="display:inline-block">Level up</span>' : '') + '</div></div></div>' +
+        '<div class="statrow"><div class="stat"><span class="k">Max HP</span><span class="v num">' + c.hp + '</span></div>' +
+        '<div class="stat"><span class="k">Armour Class</span><span class="v num">' + c.ac + '</span></div>' + approvalBlock(c.approval) + '</div>' +
+        '<div class="abil">' + abil + '</div>' +
+        '<div class="camp"><b style="color:var(--fg)">Best at:</b> ' + esc(c.bestAt) + '</div>' +
+      '</section>' +
+      '<section class="card"><h3>What to fix</h3>' + needsList(needs) + '</section>' +
+      '<section class="card"><h3>Equipment</h3>' +
+        '<div class="legend"><span class="r-common">Common</span><span class="r-uncommon">Uncommon</span><span class="r-rare">Rare</span><span class="r-veryrare">Very rare</span></div>' +
+        '<div class="gear">' + c.gear.map(slotCard).join('') + '</div>' +
+        '<div class="camp">Camp clothes: ' + esc(c.camp) + '</div>' +
+      '</section>' +
+      '<section class="card"><h3>Upgrade ideas</h3><ul class="ideas">' + c.ideas.map(function (i) { return '<li>' + esc(i) + '</li>'; }).join('') + '</ul></section>' +
+      '</div>';
+  }
+
+  function renderParty() {
+    var all = [];
+    data.party.forEach(function (c) { c.needs.forEach(function (n) { if (n.s !== 'tip') all.push({ s: n.s, t: n.t, who: c.name }); }); });
+    all.sort(function (a, b) { return SEV[a.s] - SEV[b.s]; });
+    var roster = data.party.map(function (c) {
+      var n = warnCount(c), cr = critCount(c);
+      return '<button class="mini" type="button" data-go="' + c.id + '"><div class="row">' + mono(c) + '<div><div style="font-weight:700">' + esc(c.name) + '</div>' +
+        '<div class="meta">' + esc(c.cls) + ' ' + c.level + ' · ' + esc(c.sub) + '</div></div></div>' +
+        '<div class="meta num">HP ' + c.hp + ' · AC ' + c.ac + (c.approval != null ? ' · Approval ' + c.approval : '') + '</div>' +
+        '<div class="chips"><span class="where ' + c.where + '">' + (c.where === 'party' ? 'In party' : 'At camp') + '</span>' +
+        (c.levelUp ? '<span class="pill crit">Level up</span>' : '') +
+        (n ? '<span class="pill ' + (cr ? 'crit' : 'warn') + '">' + n + ' to fix</span>' : '<span class="pill ok">Good</span>') + '</div></button>';
+    }).join('');
+    return '' +
+      '<div style="display:grid;gap:16px">' +
+      '<section class="card"><h2>The party</h2><div class="roster">' + roster + '</div></section>' +
+      '<section class="card"><h3>Fix list, most urgent first</h3>' + needsList(all, true) + '</section>' +
+      '<section class="card"><h3>Shopping list</h3><p class="muted" style="margin:0">You have ' + Number(s.gold).toLocaleString('en-GB') + ' gold. Check every trader you pass.</p><ul class="ideas">' +
+        data.shopping.map(function (i) { return '<li>' + esc(i) + '</li>'; }).join('') + '</ul></section>' +
+      '</div>';
+  }
+
+  function route() {
+    var id = (location.hash || '#party').slice(1);
+    var c = data.party.find(function (p) { return p.id === id; });
+    if (!c) id = 'party';
+    renderTabs(id);
+    var view = document.getElementById('view');
+    view.innerHTML = c ? renderChar(c) : renderParty();
+    view.classList.remove('view'); void view.offsetWidth; view.classList.add('view');
+    var t = document.querySelector('.tab[aria-current="page"]');
+    if (t && t.scrollIntoView) t.scrollIntoView({ block: 'nearest', inline: 'center' });
+  }
+  document.getElementById('view').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-go]');
+    if (b) { location.hash = b.getAttribute('data-go'); window.scrollTo(0, 0); }
+  });
+  window.addEventListener('hashchange', route);
+  route();
+})();
+</script>

@@ -12,9 +12,8 @@ _Last updated 2026-10-31 from character screens._
 | Wyll | Camp | Warlock 4 · Fiend ⬆️ | 31 | 13 | High (55) | [wyll.md](wyll.md) |
 | Shadowheart | Camp | Cleric 4 · Trickery ⬆️ | 31 | 17 | High (52) | [shadowheart.md](shadowheart.md) |
 | Karlach | Camp | Barbarian 4 · Wildheart ⬆️ | 41 | 13 | Medium (29) | [karlach.md](karlach.md) |
-| Halsin | Camp | _not logged_ | | | _unknown_ | send his sheet if you want him tracked |
 
-Also at camp: the dog, and others (_not logged_).
+Also at camp: Halsin (player won't use him, not tracked), the dog, and others.
 
 ⬆️ = level-up waiting.
 
@@ -37,7 +36,7 @@ Also at camp: the dog, and others (_not logged_).
 - [ ] **Karlach has no weapon equipped.** Give her a two-hander.
 - [ ] Karlach took the **Heavily Armoured** feat. I think Rage doesn't work in heavy armour, so it may be wasted on her. See [karlach.md](karlach.md).
 - [ ] Long rest. Changuine, Astarion, Gale and Lae'zel are all below max HP.
-- [x] Equipment logged for Changuine, Astarion, Gale and Lae'zel (2026-10-31). Wyll, Shadowheart and Karlach aren't logged yet.
+- [x] Equipment logged for all 7 (2026-10-31). Live view: the **BG3 Party Gear** artifact.
 
 ## Gear notes
 - **Two "dud" rings:** Changuine's *Polished Ring* and Gale's *'Magic' Ring* do nothing (I think). Swap in any ring with an effect you find.

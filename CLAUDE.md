@@ -89,6 +89,14 @@ Keep it to what fits in one play session, and update `next-steps.md` to match.
 
 Use `story-so-far.md`, `quests.md` and `characters.md`. Write like a "previously on…" recap: short and vivid, only what they saw. If the files don't cover it, say so and ask for the relevant journal photo rather than filling the gap from game knowledge.
 
+
+## Party gear page (artifact)
+
+The player's live party view: **https://claude.ai/artifact/6Acsd7HEK7DHV7QekBz3ZA**
+- Source: `companion-page/party-gear.html`. All data lives in the `<script type="application/json" id="party-data">` block: per character, stats, gear by slot, a "needs" list (`crit`/`warn`/`tip`) and upgrade ideas, plus a party shopping list.
+- **Whenever gear, levels, HP/AC or approval change, update both `campaign/characters/*.md` and this JSON**, then republish. From a new conversation, pass the URL above as `url` (read it first). Don't create a new artifact.
+- Upgrade ideas stay spoiler-free: describe item *types* and stats, never name specific items, places or traders the player hasn't seen.
+
 ---
 
 ## Housekeeping

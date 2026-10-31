@@ -44,7 +44,19 @@ Opportunity Attack · Reckless Attack (set to ask)
 Armour ×4 · Simple ×12 · Martial ×19
 
 ## Equipment
-_Not logged yet._ Nothing in the weapon slots.
+_From the equipment video, 2026-10-31._
+| Slot | Item | Rarity | Notes |
+|---|---|---|---|
+| Head | — | | **Empty** |
+| Body | — | | **Empty** (fine for a Barbarian: Unarmoured Defence) |
+| Hands | Reason's Grasp (?) | Uncommon | When she chooses to end her Rage, gain 15 temp HP (?) |
+| Feet | — | | **Empty** |
+| Neck | — | | **Empty** |
+| Ring | Copper Ring | Common | **No effect** |
+| Main hand | — | | ⚠️ **Empty** |
+| Ranged | — | | **Empty** |
+| Instrument | Hand Drum | | |
+| Camp | Karlach's Infernal Trousers · Tasteful Boots · Karlach's Underwear | | Cosmetic |
 
 ## Story
 - Approval: **Medium (29)**.

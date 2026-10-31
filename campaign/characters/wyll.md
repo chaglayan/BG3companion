@@ -44,7 +44,18 @@ Opportunity Attack
 Armour ×2 · Simple ×12 · Martial ×4
 
 ## Equipment
-_Not logged yet._
+_From the equipment video, 2026-10-31._
+| Slot | Item | Rarity | Notes |
+|---|---|---|---|
+| Head | — | | **Empty** |
+| Body | **Poisoner's Robe** | Uncommon | Clothing, AC 10. Poison Trails: spells that deal poison damage deal an extra 1–4. |
+| Hands | **Bracers of Defence** | Rare | Become the Bulwark: +2 AC with no armour and no shield |
+| Feet | — | | **Empty** (only camp boots) |
+| Neck | — | | **Empty** (?) |
+| Ring | Silver Band | Common | **No effect** |
+| Main hand | Rapier | Common | 2–9 |
+| Ranged | Goblin Bow | Common | 2–7 (Eldritch Blast is his real attack) |
+| Camp | Wyll's Earthy Garb · Tasteful Boots · Wyll's Underwear | | Cosmetic |
 
 ## Story
 - Approval: **High (55)**.

@@ -44,7 +44,19 @@ Opportunity Attack
 Armour ×3 · Simple ×12 · Martial ×5
 
 ## Equipment
-_Not logged yet._
+_From the equipment video, 2026-10-31._
+| Slot | Item | Rarity | Notes |
+|---|---|---|---|
+| Head | — | | **Empty** |
+| Body | Scale Mail | Common | Medium armour, AC 14 (+DEX max 2). Stealth disadvantage. |
+| Hands | — | | **Empty** |
+| Feet | — | | **Empty** (only camp sandals) |
+| Neck | — | | **Empty** (?) |
+| Ring | Carnelian Ring | Common | **No effect** |
+| Main hand | **Shattered Flail** | Rare | 4–9, +2. Yeenoghu's Gift: hits heal her 1–6, but she can go Mad if she doesn't hit something each turn. |
+| Off hand | **Glowing Shield** | Uncommon | +2 AC. Loving Protection: once per short rest, gain 8 temp HP when hit below 50% HP. |
+| Ranged | Light Crossbow | Common | 2–9 |
+| Camp | Shadowheart's Clothes · Acolyte's Sandals · Shadowheart's Underwear | | Cosmetic |
 
 ## Story
 - Approval: **High (52)**.
