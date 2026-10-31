@@ -48,7 +48,8 @@ _Not logged yet._
 
 ## Story
 - Approval: **High (52)**.
-- Personal quest: **Daughter of Darkness**, sub-quest **The Chosen of Shar** (entry not photographed yet).
+- **Daughter of Darkness**: secretly a cleric of **Shar** with a mission in Baldur's Gate she can't fully remember (she let her memory be suppressed). The **Mother Superior** who raised her gave her the **wound that never heals**. She dreams of becoming a **Dark Justiciar**. Raised by Sharrans after being chased by a wolf as a child, hence **Fear of Wolves**. **You promised to help ease her pain.**
+- ↳ **The Chosen of Shar**: find the **Dark Justiciars' lair**. You've seen their murals in the grove and a Selûne temple they razed.
 - Romance: _unknown_
 
 ## Build notes

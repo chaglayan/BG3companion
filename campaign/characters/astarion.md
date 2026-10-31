@@ -47,5 +47,5 @@ _Not logged yet._
 
 ## Story
 - Approval: ⚠️ **Neutral (2)**, the lowest in the party.
-- Personal quest: **The Pale Elf** (entry not photographed yet).
+- **The Pale Elf**: infected like you; hostile at first, then joined. **He's a vampire.** You caught him feeding at night and warned him never to do it again. He was a **slave to the Szarr family** and fears he still can't refuse their orders.
 - Romance: _unknown_

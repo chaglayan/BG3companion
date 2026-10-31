@@ -3,27 +3,32 @@
 _Updated 2026-10-31._
 
 ## Before you play (5 minutes, no story)
-- [ ] **Make a new save slot.** Keep the 18 March save as a backup.
+- [ ] **New save slot.** Keep the 18 March save as a backup.
 - [ ] **Level up Wyll, Shadowheart and Karlach** to 5.
-- [ ] **Give Karlach a weapon** (two-hander). Consider a respec at Withers (see [karlach.md](characters/karlach.md)).
-- [ ] **Long rest.** The party is hurt, and camp is where companion scenes happen.
-- [ ] **Read your journal's "!" updates** and open each companion quest. It's the quickest memory refresh.
-- [ ] **Hover your ★ custom markers** on the map. Past-you left notes for a reason.
+- [ ] **Give Karlach a weapon.** Maybe respec her at Withers (see [karlach.md](characters/karlach.md)).
+- [ ] **Long rest.** The party's hurt, and camp is where companion scenes happen.
+- [ ] **Hover your ★ custom markers** on the map. Past-you left notes.
 
-## Right now
-You're in **late Act 1**. Two roads lead toward Moonrise Towers:
-1. **The Underdark.** You've started this one (Myconid Colony waypoint). The journal says to explore it to find the path.
-2. **The Mountain Pass.** Not visited yet.
+## This session: the plan
+Your last save was on the Risen Road heading northwest, which is exactly where your main lead points.
 
-**Nudge:** both are full Act 1 areas with their own content. I'd do **both** before following either one to its end.
+1. **Find the githyanki patrol (northwest).** The lead for both *Find the Githyanki Crèche* and Lae'zel's quest. **Bring Lae'zel.** Save before you approach.
+2. **The Mountain Pass**, beyond it. Explore it properly; it's a full Act 1 area.
+3. **Then the Underdark**, which you've already entered. Explore it properly too, and look for a **sussur tree** (bark for the masterwork weapon).
 
-## Before leaving the current area
-Open quests in this act's region to wrap up (send me their journal entries for proper nudges):
-- Finish the Masterwork Weapon
-- Search the Cellar
-- Rescue the Trapped Man
+Order doesn't matter much. The point is to **do both routes before following either one to its end.**
 
-Also: **spend some of your 5,140 gold** on upgrades from the traders you know. Gold doesn't vanish between acts, but gear helps right now.
+## Act 1 wrap-up checklist
+Tick these off before leaving Act 1:
+- [ ] Githyanki patrol → Mountain Pass (Lae'zel)
+- [ ] Explore the Underdark
+- [ ] Sussur bark → finish the **masterwork weapon**
+- [ ] Find **Benryn's dowry** (around Waukeen's Rest)
+- [ ] Grab any **infernal iron** you see (for Karlach)
+- [ ] **Talk to Halsin** and everyone at camp. Long rest regularly.
+- [ ] Rebuild **Astarion's** approval (Neutral 2): watch what he likes.
+- [ ] **Spend some gold** (5,140) on gear upgrades.
+- [ ] Have a **spare magic item** handy in case Gale asks again (his journal says to keep one ready).
 
 ## Next point of no return
 **Leaving Act 1.** Whichever route you take, the game shows a clear **warning popup** before you cross into the next act, and a lot of Act 1 closes behind you.

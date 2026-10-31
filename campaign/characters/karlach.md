@@ -48,7 +48,8 @@ _Not logged yet._ Nothing in the weapon slots.
 
 ## Story
 - Approval: **Medium (29)**.
-- Personal quest: **Our Fiery Friend**, sub-quest **The Hellion's Heart** (entry not photographed yet). You completed **Hunt the Devil**.
+- **Our Fiery Friend**: you spared her (instead of following Wyll's mission) and promised to help defeat the **Paladins of Tyr** hunting her.
+- ↳ **The Hellion's Heart**: Dammon used **infernal iron** to upgrade her engine but couldn't fix it. He'll meet you on the road ahead / in Baldur's Gate. 👉 **Collect infernal iron.**
 - Romance: _unknown_
 
 ## Build notes

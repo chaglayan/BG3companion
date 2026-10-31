@@ -53,8 +53,11 @@ Armour ×1 · Simple weapons ×12 · Martial weapons ×4 · no instruments
 _Not logged yet._ Carries all **5,140 gold**.
 
 ## Story
-- Personal quests: **Embrace Your Potential**, **Discover the Artefact's Secrets** (entries not photographed yet).
+- Main goal: **cure the tadpole**. Tried Nettie and Auntie Ethel, and rescued Halsin. Current lead: Lae'zel's **githyanki crèche** near the northwest mountain pass.
+- Personal quests: **Embrace Your Potential**, **Discover the Artefact's Secrets** (entries not photographed).
 - One-Eyed, with Volo's Ersatz Eye: a souvenir from Volo's "procedure" after you rescued him.
+- Auntie Ethel's Boon: from the Auntie Ethel / Mayrina business.
+- Read most of *The Necromancy of Thay* and absorbed some of its necromantic power.
 
 ## Build notes
 - Not proficient in Stealth or Sleight of Hand. Leave locks and traps to Astarion.

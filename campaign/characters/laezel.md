@@ -47,5 +47,6 @@ _Not logged yet._
 
 ## Story
 - Approval: **Medium (28)**.
-- Personal quest: **The Githyanki Warrior** (entry not photographed yet). You completed **Free Lae'zel** early on.
+- **The Githyanki Warrior**: promised you'd be cleansed at a **githyanki crèche**. Zorru saw githyanki near a **mountain pass in the northwest**, and a githyanki knight's red dragon flew over the Risen Road. Journal: *"We should travel there with Lae'zel."* 👉 **Keep her in the party** for this.
+- **Free Lae'zel** ✅
 - Romance: _unknown_

@@ -23,7 +23,7 @@
 | 3 | Gale | Wizard 5, Evocation |
 | 4 | Lae'zel | Fighter 5, Battle Master |
 
-At camp: Wyll (Warlock 4), Shadowheart (Cleric 4), Karlach (Barbarian 4), all with a **level-up waiting**. Full stats in [`characters/`](characters/).
+At camp: Wyll (Warlock 4), Shadowheart (Cleric 4), Karlach (Barbarian 4), all with a **level-up waiting**. Also at camp: **Halsin**, the dog and others. Full stats in [`characters/`](characters/).
 
 Gold: 5,140 (on Changuine). Camp supplies: 1,658 (?).
 

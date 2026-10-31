@@ -12,6 +12,9 @@ _Last updated 2026-10-31 from character screens._
 | Wyll | Camp | Warlock 4 · Fiend ⬆️ | 31 | 13 | High (55) | [wyll.md](wyll.md) |
 | Shadowheart | Camp | Cleric 4 · Trickery ⬆️ | 31 | 17 | High (52) | [shadowheart.md](shadowheart.md) |
 | Karlach | Camp | Barbarian 4 · Wildheart ⬆️ | 41 | 13 | Medium (29) | [karlach.md](karlach.md) |
+| Halsin | Camp | _not logged_ | | | _unknown_ | send his sheet if you want him tracked |
+
+Also at camp: the dog, and others (_not logged_).
 
 ⬆️ = level-up waiting.
 

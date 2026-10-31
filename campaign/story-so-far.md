@@ -1,24 +1,49 @@
 # Story so far
 
-> "Previously on…", rebuilt from your journal. It only covers what the quest titles and entries show, so it'll fill out as you send the completed quests' text.
+> "Previously on…", rebuilt from your quest journal (2026-10-31). Only what you've played.
 
 ## Act 1
 
-**The crash.** You (Changuine, a drow sage turned swashbuckler) were abducted onto a mind flayer ship and infected with a tadpole. You fought your way out (*Escape the Nautiloid*), freed **Lae'zel** along the way, and the ship crashed. Since then the big goal has been ***Find a Cure*** for the tadpole.
+### The crash
+You are **Changuine**, a drow sage. Mind flayers abducted you onto their ship (the *nautiloid*) and put a **tadpole** in your head. You fought your way out, freeing a githyanki warrior, **Lae'zel**, on the way, and the ship crashed.
 
-**Gathering the crew.** You picked up **Shadowheart, Astarion, Gale, Wyll, Lae'zel** and, after *Hunt the Devil*, **Karlach**. You also looked into the beach (*Investigate the Beach*) and the ruins (*Explore the Ruins*).
+Since then, everyone infected has had one goal: **find a cure** before the tadpole turns you into a mind flayer.
 
-**Around the Emerald Grove.** You saved **Arabella**, completed ***Save the Refugees*** for the grove's refugees, rescued a gnome (*Rescue the Gnome*), and tracked down a missing shipment for the Zhentarim (*Find the Missing Shipment*; you have saves in the **Zhentarim Basement**).
+### The search for a cure
+- **Healer Nettie** at the druids' grove: tried. ✅
+- **Auntie Ethel**, a "kindly" old woman in the swamp: tried. You also **saved Mayrina** from her, and came away with *Auntie Ethel's Boon*.
+- **Halsin**, the druid leader: you rescued him from the goblins. He's now at your camp.
+- **Lae'zel's answer**: githyanki can purify you at one of their **crèches**. A tiefling called **Zorru** saw githyanki near a **mountain pass in the northwest**, and a red dragon (the kind githyanki knights ride) flew over you on the Risen Road. **This is your open lead.**
 
-**Odd encounters.**
-- You saved **Mayrina** from **Auntie Ethel** and came away with *Auntie Ethel's Boon*.
-- You rescued **Volo**, and his "eye procedure" left you **one-eyed**, now sporting Volo's Ersatz Eye.
-- You also completed *Rescue the Illithids' Captive*.
+### The Emerald Grove
+Tiefling refugees were sheltering in the druids' grove. Their leader **Zevlor** was at odds with **Kagha**, the acting druid leader, who wanted them gone and the grove sealed. Goblins were also raiding the area.
 
-**Gale's secret.** Gale told you about his romance with the goddess **Mystra**, and the volatile, Netherese-corrupted Weave orb in his chest that he keeps stable by absorbing magic items. You've fed him several. Now it's *"no longer responding to treatment"* and you need to find another way. You also completed his *In Case of Death…* sub-quest.
+You **defeated the goblins** and **rescued Halsin**, the true leader, ending the conflict. The road became safe, the tieflings left for Baldur's Gate, and there was a **celebration at camp** 🎉.
 
-**Where you're headed.** You need to reach **Moonrise Towers**. Halsin told you about a route through the **Underdark**, under the old temple of Selûne. You found the secret entrance, got through, and reached the **Myconid Colony**. The other route, the **Mountain Pass**, is still unexplored.
+Along the way:
+- You saved **Arabella** (a tiefling girl).
+- You rescued a **gnome**.
+- You found a **missing shipment** for the Zhentarim.
+- You rescued **Volo**, the bard, from the goblins. His "procedure" left you **one-eyed**; you now wear *Volo's Ersatz Eye*.
 
-**Last save:** 18 March 2026, 41h 55m played, out in the Wilderness (on the Risen Road, west side (?)).
+### Waukeen's Rest
+An inn on the Risen Road, on fire. You freed **Benryn**, who was trapped inside; his wife didn't make it. He mentioned a **dowry** that might still be around.
 
-_Gaps to fill: how the companion quests stand, Find a Cure, and the rest of the completed list._
+Drow had **abducted Grand Duke Ravengard** from the inn. **Counsellor Florrick** asked for help; she thinks they took him west, maybe to **Moonrise Towers**, home of the **cult of the Absolute**.
+
+### The book in the cellar
+You found ***The Necromancy of Thay***, unlocked it with a keygem and read most of it. It snapped shut before the last page, which you can't decipher yet.
+
+### Your companions
+- **Shadowheart**: secretly a cleric of **Shar**, on a mission to Baldur's Gate she can't fully remember, because she let her memories be suppressed. Her **wound that never heals** was given to her by the **Mother Superior** who raised her. She dreams of becoming a **Dark Justiciar**. You've seen Dark Justiciar murals, and a Selûne temple they razed. **You promised to help ease her pain.**
+- **Astarion**: a pale elf who turned out to be a **vampire**. You caught him drinking someone's blood at night and warned him never to do it again. He was **enslaved by the Szarr family** and fears he still can't refuse their orders. *(He's not thrilled with you right now: approval 2.)*
+- **Gale**: a wizard who once **romanced the goddess Mystra**. Trying to impress her, he created a volatile **Weave orb that now sits in his chest**. You've fed him magic items to keep it stable, but now it's *"no longer responding to treatment."*
+- **Wyll**: the "Blade of Frontiers", sent by his patron **Mizora** to kill **Karlach**. You found Karlach wasn't the devil he was told and **settled it peacefully**, so Mizora **turned Wyll into a devil** as punishment. He's also hunting for the **Grand Duke**.
+- **Karlach**: a tiefling with an **infernal engine** in her chest. You took her side against the **Paladins of Tyr** hunting her. **Dammon**, the tiefling smith, upgraded her engine with **infernal iron**, but it's not fixed; he'll meet you again on the road.
+- **Lae'zel**: wants to reach a **githyanki crèche** for the cure.
+- **At camp:** Halsin, the dog, and others.
+
+### Where you are now
+You have to reach **Moonrise Towers**, and there are two ways:
+1. **The Underdark.** Halsin pointed you to tunnels under the old Selûne temple. You found the secret entrance and reached the **Myconid Colony**.
+2. **The Mountain Pass**, to the northwest. This is where Lae'zel's crèche lead points. Your last save (18 March, 41h 55m) has the party on the Risen Road, apparently heading that way.

@@ -48,7 +48,8 @@ _Not logged yet._
 
 ## Story
 - Approval: **High (55)**.
-- Personal quest: **The Blade of Frontiers**, sub-quest **The Grand Duke** (entry not photographed yet).
+- **The Blade of Frontiers**: joined to kill Karlach, but you resolved it peacefully. His patron **Mizora** punished him by **turning him into a devil**, and *"it seems likely we'll meet her again."*
+- ↳ **The Grand Duke**: Grand Duke Ravengard was abducted by drow from Waukeen's Rest. Counsellor Florrick thinks they went west, maybe to Moonrise Towers (the cult of the Absolute's base).
 - Romance: _unknown_
 
 ## Build notes

@@ -47,6 +47,7 @@ _Not logged yet._
 
 ## Story
 - Approval: **Very High (72)**.
-- Personal quest: **The Wizard of Waterdeep**. He told you about his romance with the goddess Mystra and the unstable Weave orb in his chest, which he keeps stable by absorbing magic items. Latest entry: *"Gale's condition is no longer responding to treatment. We need to keep travelling, and find another way to stabilise the orb."*
-- Sub-quest **In Case of Death…** is complete.
+- **The Wizard of Waterdeep**: romanced the goddess **Mystra**. Trying to impress her, he unleashed a Netherese-corrupted **Weave orb now in his chest**. You fed him at least two magic items (the second was less effective). Latest: *"no longer responding to treatment… find another way to stabilise the orb."*
+- Keep a spare magic item handy in case he asks again.
+- ↳ **In Case of Death…** ✅
 - Romance: _unknown_
