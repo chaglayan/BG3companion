@@ -50,23 +50,21 @@ Opportunity Attack · Rakish Sneak Attack · Rakish Sneak Attack (Critical Hit) 
 Armour ×1 · Simple weapons ×12 · Martial weapons ×4 · no instruments
 
 ## Equipment
-_From the equipment video, 2026-10-31. Effects are only noted where the tooltip was legible._
+_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
 | Head | Leather Helmet | Common | +1 DEX saving throws |
-| Body | Leather Armour +1 | Uncommon | AC 12 (+DEX). Stealthy: +1 to Stealth checks (?) |
-| Hands | **Gloves of Power** | Uncommon | Absolute's Bane: weapon hits can apply a penalty to the target's attacks/saves (?). Source of the "Absolute's Bane" feature. |
-| Feet | **The Watersparkers** | Rare | Electrify Water, Waterspark: Lightning Charges near water. Source of those two features. |
-| Neck | Silver Pendant | Uncommon | Gives the **Guidance** cantrip |
-| Ring 1 | Ring of Colour Spray | Uncommon | Gives **Colour Spray** (level 1 spell) |
-| Ring 2 | Polished Ring | Common | **No effect.** Free slot for an upgrade. |
-| Main hand | **Rupturing Blade** | Uncommon | 6–13 (1d8+5 slashing), +1 enchantment, can inflict bleeding/wounds (?) |
-| Off hand | — | | **Empty** |
-| Ranged | Light Crossbow | Common | 5–12, two-handed |
-| Instrument | Lyre | Common | |
-| Camp | Comfortable Autumnal Outfit · Elfin Woodsoles · Underwear | | Cosmetic |
+| Body | Leather Armour +1 | Uncommon | Light, AC 12 (+DEX, so 16 total). Stealthy: +1 Stealth checks. |
+| Hands | Gloves of Power | Uncommon | +1 Sleight of Hand. Absolute's Bane (−1d4 to the target's attacks and saves on hit). Wikis say the Bane part only works if the wearer has the Absolute's brand. |
+| Feet | The Watersparkers | Rare | Electrify Water (the water you stand in becomes electrified) and Waterspark (Lightning Charges when you end your turn in electrified water) |
+| Neck | Silver Pendant | Uncommon | Guidance cantrip |
+| Ring | Ring of Colour Spray | Uncommon | Colour Spray spell |
+| Ring | Polished Ring | Common · **dud** | No effect |
+| Main hand | Rupturing Blade | Uncommon | Rapier +1, 1d8+5 (6–13), Finesse. Actions with proficiency: Piercing Strike, Weakening Strike, Flourish, plus its own Searing Blood (extra fire damage that hurts you a little). |
+| Off hand | — (**empty**) |  | Rapier isn't Light, so the off-hand stays empty until you take Dual Wielder |
+| Ranged | Light Crossbow | Common | 1d8+4 (5–12), two-handed |
 
-Carries all **5,140 gold** and camp supplies (1,658).
+Camp: Comfortable Autumnal Outfit, Elfin Woodsoles, Lyre
 
 ## Story
 - Main goal: **cure the tadpole**. Tried Nettie and Auntie Ethel, and rescued Halsin. Current lead: Lae'zel's **githyanki crèche** near the northwest mountain pass.
@@ -76,5 +74,29 @@ Carries all **5,140 gold** and camp supplies (1,658).
 - Read most of *The Necromancy of Thay* and absorbed some of its necromantic power.
 
 ## Build notes
-- Not proficient in Stealth or Sleight of Hand. Leave locks and traps to Astarion.
-- Persuasion is only +3. For big Charisma conversations, let Astarion or Wyll start the talk.
+**Proficient with:** Light armour. Simple weapons, plus rapiers, shortswords, longswords and hand crossbows (Rogue and Drow).
+
+**Key features:**
+- Sneak Attack 3d6 (avg 10.5), once per turn
+- Rakish Audacity: Sneak Attack in melee without needing advantage (I think it doesn't work at range), plus an initiative bonus
+- Fancy Footwork: enemies you've attacked in melee can't take opportunity attacks on you that turn
+- Swashbuckler Dirty Tricks (bonus action, I think they use your CHA for the DC, so they're weak at CHA 10)
+- Cunning Action: Dash, Disengage or Hide as a bonus action
+- Mage Slayer: punish casters next to you
+- Luck of the Far Realms (tadpole power): turn a hit into a crit
+
+**Weapon setup:** You're right: the rapier is the right call at level 5. Here's the maths.
+- **[Best now] Rupturing Blade alone (current)**: About 9.5 damage a hit, plus Sneak Attack (10.5). Your bonus action stays free for Cunning Action, Flourish or Dirty Tricks, and you keep the four rapier actions. Best for a swashbuckler who darts in, stabs, and Disengages.
+- **[Option] Two Light weapons (e.g. shortsword + dagger)**: Main hand drops to about 8.5, but the off-hand adds about 3.5 and gives a second chance to land Sneak Attack if the first swing misses. That's roughly 2–4 more damage a turn, but it eats your bonus action every turn and you lose the rapier actions. Only worth it with two +1 or better Light weapons.
+- **[Plan] Level 8: Dual Wielder feat**: Lets you keep the rapier and add a second rapier or shortsword in the off-hand, plus +1 AC. This is the upgrade path if you want more melee damage. Rogues get a feat at levels 8 and 10.
+- **[Option] Ranged: Light Crossbow vs hand crossbows**: Keep the Light Crossbow (1d8). Hand crossbows (1d6) only win if you dual-wield two of them for a bonus-action shot.
+
+**Upgrade ideas:**
+- Weapon: a rapier at +2, or a +1 rapier that adds damage on hit (fire, lightning, extra dice). Shortswords are fine too; you're proficient.
+- Armour: the best light armour gives 12 base. Studded Leather +1 or +2 is a straight AC upgrade (13–14 base).
+- Ring slot 2: anything that adds damage, AC or saves.
+- Head/neck: items that boost initiative or Dexterity saves suit a Rogue.
+- Level 6: Expertise in two more skills. Sleight of Hand and Stealth make you the party's lockpicker and scout.
+- Level 8 feat: Dual Wielder (more melee), or +2 DEX to reach 20 (more to-hit, damage and AC).
+
+**Level plan:** Next: level 6 gives two more Expertise picks (Stealth and Sleight of Hand recommended).

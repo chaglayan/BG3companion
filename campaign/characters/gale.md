@@ -43,19 +43,20 @@ Sculpt Spells · Absolute's Ward (?) · Writhing Dance · Swift Strides · Runni
 Armour ×2 · Simple ×4 · Martial ×3
 
 ## Equipment
-_From the equipment video, 2026-10-31._
+_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
 | Head | Leather Helmet | Common | +1 DEX saving throws |
-| Body | Studded Leather Armour | Common | AC 12 (+DEX) |
-| Hands | **Fleetfingers** | Uncommon | Running Jump: after a Dash, jump without a bonus action |
-| Feet | **Springstep Boots** | Rare | Swift Strides: Dashing gives Momentum for 3 turns |
-| Neck | **Moondrop Pendant** | Uncommon | Writhing Dance: below 50% HP, no opportunity attacks against him |
-| Ring | 'Magic' Ring | Common | **No real effect** (as far as I can read). Free slot. |
-| Main hand | **Staff of Crones** | Uncommon | 0–5. Gives **Ray of Sickness**. |
-| Off hand | **Absolute's Warrant** | Uncommon | Shield, +2 AC. Absolute's Ward: +1 to saves when the Absolute's sound is heard (?) |
-| Ranged | Longbow | Common | 2–9 |
-| Camp | Gale's Austere Clothes · Tasteful Boots · Netherese Briefs | | Cosmetic |
+| Body | Studded Leather Armour | Common | Light, AC 12 (+DEX 1) |
+| Hands | Fleetfingers | Uncommon | Running Jump: jump free after a Dash |
+| Feet | Springstep Boots | Rare | Swift Strides: Dashing gives Momentum for 3 turns |
+| Neck | Moondrop Pendant | Uncommon | Writhing Dance: below 50% HP, no opportunity attacks against him |
+| Ring | 'Magic' Ring | Story | Orange = story item. No combat effect I can find. Keep it in his bag; you can free the slot. |
+| Main hand | Staff of Crones | Uncommon | Quarterstaff 0–5. Gives Ray of Sickness. |
+| Off hand | Absolute's Warrant | Uncommon | Shield +2 AC. Gives the Heroism spell. Absolute's Ward: +1 to saves when the Absolute's sound is heard (?) |
+| Ranged | Longbow | Common | 2–9 (not proficient, so it barely matters) |
+
+Camp: Gale's Austere Clothes, Tasteful Boots, Netherese Briefs
 
 ## Story
 - Approval: **Very High (72)**.
@@ -63,3 +64,23 @@ _From the equipment video, 2026-10-31._
 - Keep a spare magic item handy in case he asks again.
 - ↳ **In Case of Death…** ✅
 - Romance: _unknown_
+
+## Build notes
+**Proficient with:** Light armour and shields (Human Civil Militia), plus spears, pikes, halberds, glaives. Daggers, quarterstaffs, light crossbows (Wizard).
+
+**Key features:**
+- Sculpt Spells: his area spells (like Fireball) can spare allies
+- Counterspell set as a reaction
+- Spellcasting: INT, DC 15, +7 to hit, up to 3rd-level spells, Arcane Recovery
+- Human Versatility: extra skill
+
+**Weapon setup:** Spells do the work. The staff and shield setup is right for him.
+- **[Best now] Staff + shield (current)**: The shield gives +2 AC and Heroism, and the staff gives a free Ray of Sickness. Perfect for a wizard. He never needs a better weapon, just better casting gear.
+- **[Skip] Longbow**: Not proficient. Use a cantrip like Fire Bolt instead of shooting.
+
+**Upgrade ideas:**
+- Anything that raises spell save DC or spell attack, or adds damage to fire/lightning/cold spells. Evocation scales with that.
+- Studded Leather +1 or a better shield would be easy AC.
+- Level 6 Evocation: Potent Cantrip (I think): cantrips still do half damage on a save.
+
+**Level plan:** Next: level 6. Learn 2 new spells; copy scrolls into his spellbook whenever you find them.

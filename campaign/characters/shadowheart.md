@@ -44,19 +44,20 @@ Opportunity Attack
 Armour ×3 · Simple ×12 · Martial ×5
 
 ## Equipment
-_From the equipment video, 2026-10-31._
+_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
-| Head | — | | **Empty** |
-| Body | Scale Mail | Common | Medium armour, AC 14 (+DEX max 2). Stealth disadvantage. |
-| Hands | — | | **Empty** |
-| Feet | — | | **Empty** (only camp sandals) |
-| Neck | — | | **Empty** (?) |
-| Ring | Carnelian Ring | Common | **No effect** |
-| Main hand | **Shattered Flail** | Rare | 4–9, +2. Yeenoghu's Gift: hits heal her 1–6, but she can go Mad if she doesn't hit something each turn. |
-| Off hand | **Glowing Shield** | Uncommon | +2 AC. Loving Protection: once per short rest, gain 8 temp HP when hit below 50% HP. |
+| Head | — (**empty**) |  |  |
+| Body | Scale Mail | Common | Medium, AC 14 + DEX (max 2, she has +1) = 15. Stealth disadvantage. |
+| Hands | — (**empty**) |  |  |
+| Feet | — (**empty**) |  |  |
+| Neck | — (**empty**) |  |  |
+| Ring | Carnelian Ring | Common · **dud** | No effect |
+| Main hand | Shattered Flail | Rare | Mace-type, 4–9, +2. Yeenoghu's Gift: hits heal her 1–6 for a few turns. If she doesn't damage an enemy on her turn while it's active, she can go Mad (DC 10 WIS save; with her +6 save she fails about 15% of the time). |
+| Off hand | Glowing Shield | Uncommon | +2 AC. Loving Protection: once per short rest, gain 8 temp HP when hit below 50% HP. |
 | Ranged | Light Crossbow | Common | 2–9 |
-| Camp | Shadowheart's Clothes · Acolyte's Sandals · Shadowheart's Underwear | | Cosmetic |
+
+Camp: Shadowheart's Clothes, Acolyte's Sandals
 
 ## Story
 - Approval: **High (52)**.
@@ -65,5 +66,24 @@ _From the equipment video, 2026-10-31._
 - Romance: _unknown_
 
 ## Build notes
-- Level 5 gives 3rd-level spells. Pick them before the next fight.
-- WIS 17 is odd, so her next feat can be a +1 WIS half-feat or an ASI to reach 18.
+**Proficient with:** Light and medium armour, shields. Simple weapons, plus longswords, shortswords, longbows, shortbows (Half-Elf).
+
+**Key features:**
+- Spellcasting: WIS, DC 13, +5 to hit
+- Channel Divinity ×1 per short rest
+- Trickery domain spells always prepared
+- Feat: Spell Sniper
+
+**Weapon setup:** Good weapon, with one catch: Madness.
+- **[Best now] Shattered Flail + Glowing Shield (current)**: +2 is the best enchantment in the party, and it self-heals. Great if she's in melee every turn.
+- **[Option] When she's healing or buffing**: If she'll spend turns casting instead of hitting, swap to a plain mace for that fight. Madness makes her attack anyone nearby.
+- **[Plan] Level 5: Spirit Guardians**: Her best 3rd-level spell. Enemies around her take damage every turn, which also keeps the flail's Madness check safe.
+
+**Upgrade ideas:**
+- Level 5 spells: Spirit Guardians and Mass Healing Word.
+- Armour: Half Plate (AC 15 + 2) or a Breastplate (14 + 2, no Stealth penalty) is a straight upgrade.
+- Anything with Wisdom or spell save DC (now 13): her spells currently land less often than Gale's or Astarion's.
+- Four empty slots: any gloves, boots, hat or amulet with an effect is pure upside.
+- WIS 17 is odd. A +1 WIS half-feat at level 8 rounds it to 18.
+
+**Level plan:** Level up now. Take Spirit Guardians.

@@ -44,19 +44,19 @@ Opportunity Attack · Reckless Attack (set to ask)
 Armour ×4 · Simple ×12 · Martial ×19
 
 ## Equipment
-_From the equipment video, 2026-10-31._
+_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
-| Head | — | | **Empty** |
-| Body | — | | **Empty** (fine for a Barbarian: Unarmoured Defence) |
-| Hands | Reason's Grasp (?) | Uncommon | When she chooses to end her Rage, gain 15 temp HP (?) |
-| Feet | — | | **Empty** |
-| Neck | — | | **Empty** |
-| Ring | Copper Ring | Common | **No effect** |
-| Main hand | — | | ⚠️ **Empty** |
-| Ranged | — | | **Empty** |
-| Instrument | Hand Drum | | |
-| Camp | Karlach's Infernal Trousers · Tasteful Boots · Karlach's Underwear | | Cosmetic |
+| Head | — (**empty**) |  |  |
+| Body | — (**empty**) |  | OK for a Barbarian (Unarmoured Defence), but medium armour would be +1–2 AC |
+| Hands | Reason's Grasp | Uncommon | 15 temp HP when she chooses to end her Rage |
+| Feet | — (**empty**) |  |  |
+| Neck | — (**empty**) |  |  |
+| Ring | Copper Ring | Common · **dud** | No effect |
+| Main hand | **Nothing equipped** |  | No weapon. She's punching. |
+| Ranged | — (**empty**) |  |  |
+
+Camp: Karlach's Infernal Trousers, Tasteful Boots, Hand Drum
 
 ## Story
 - Approval: **Medium (29)**.
@@ -65,6 +65,26 @@ _From the equipment video, 2026-10-31._
 - Romance: _unknown_
 
 ## Build notes
-- **Equip a two-handed weapon** (greataxe, greatsword or maul). Right now she's punching.
-- Level 5 gives her **Extra Attack**, a huge jump.
-- **Heavily Armoured feat:** I think Barbarian Rage doesn't work while wearing heavy armour, and she's unarmoured anyway, so the feat is probably wasted. Withers (the respec guy at camp, the one you used for Astarion) can redo her build for 100 gold. A common pick at level 4 is Great Weapon Master or +2 STR.
+**Proficient with:** Light and medium armour, shields, heavy armour (her feat). All simple and martial weapons.
+
+**Key features:**
+- Rage ×3: bonus damage, resistance to physical damage
+- Reckless Attack: advantage on her attacks (enemies get advantage on her)
+- Unarmoured Defence: AC 10 + DEX + CON = 13 with no armour
+- Bear Heart (Wildheart): extra toughness while raging
+- Danger Sense, Hellish Resistance (fire)
+- Feat: Heavily Armoured (probably wasted, see below)
+
+**Weapon setup:** Any two-hander today. Plan the respec around Great Weapon Master.
+- **[Best now] Greatsword or maul (2d6)**: Average 7 per hit before modifiers, the highest steady damage. Lae'zel already has the party's greatsword, so look for another or a maul.
+- **[Option] Greataxe (1d12)**: Average 6.5, swingier. Fine if it has a better enchantment than the greatsword or maul you find.
+- **[Plan] Respec at Withers: Great Weapon Master**: Swap Heavily Armoured for GWM. Reckless Attack gives advantage, which cancels GWM's −5 to hit, so she gets +10 damage on most swings. With Extra Attack at level 5, that's a huge jump.
+- **[Option] Ranged: throwing weapons**: Barbarians throw well (STR). Keep a few javelins or handaxes for enemies she can't reach.
+
+**Upgrade ideas:**
+- Weapon first: greatsword or maul, +1 or better if you can.
+- Armour: Rage works in medium armour. Scale Mail (14 + 1 DEX = 15) or Half Plate (16) beats her unarmoured 13.
+- Items that add STR, Rage damage or temp HP fit her.
+- When you respec her, tell me and I'll lay out stats and feats.
+
+**Level plan:** Equip a weapon, respec (GWM), then level to 5.

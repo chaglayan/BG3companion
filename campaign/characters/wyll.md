@@ -44,18 +44,19 @@ Opportunity Attack
 Armour ×2 · Simple ×12 · Martial ×4
 
 ## Equipment
-_From the equipment video, 2026-10-31._
+_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
-| Head | — | | **Empty** |
-| Body | **Poisoner's Robe** | Uncommon | Clothing, AC 10. Poison Trails: spells that deal poison damage deal an extra 1–4. |
-| Hands | **Bracers of Defence** | Rare | Become the Bulwark: +2 AC with no armour and no shield |
-| Feet | — | | **Empty** (only camp boots) |
-| Neck | — | | **Empty** (?) |
-| Ring | Silver Band | Common | **No effect** |
+| Head | — (**empty**) |  |  |
+| Body | Poisoner's Robe | Uncommon | Clothing, AC 10. Poison Trails: spells that deal poison damage deal +1–4. |
+| Hands | Bracers of Defence | Rare | Become the Bulwark: +2 AC with no armour and no shield (AC 10 + DEX 1 + 2 = 13) |
+| Feet | — (**empty**) |  |  |
+| Neck | — (**empty**) |  |  |
+| Ring | Silver Band | Common · **dud** | No effect |
 | Main hand | Rapier | Common | 2–9 |
-| Ranged | Goblin Bow | Common | 2–7 (Eldritch Blast is his real attack) |
-| Camp | Wyll's Earthy Garb · Tasteful Boots · Wyll's Underwear | | Cosmetic |
+| Ranged | Goblin Bow | Common | 2–7 |
+
+Camp: Wyll's Earthy Garb, Tasteful Boots
 
 ## Story
 - Approval: **High (55)**.
@@ -64,4 +65,23 @@ _From the equipment video, 2026-10-31._
 - Romance: _unknown_
 
 ## Build notes
-- Level 5 gives him 3rd-level pact slots, a new invocation and his big damage spells. Do it before the next fight.
+**Proficient with:** Light armour. Simple weapons, plus a few martial ones (rapier). Shields and polearms via Human Civil Militia (?).
+
+**Key features:**
+- Eldritch Blast + Agonising Blast: his real attack (adds CHA to damage)
+- Dark One's Blessing: temp HP when he drops an enemy
+- Pact of the Chain: familiar
+- Spellcasting: CHA, DC 14, +6 to hit. Pact slots refresh on a short rest.
+- Feat: Actor
+
+**Weapon setup:** Ignore his weapons. Eldritch Blast is better than any of them.
+- **[Best now] Eldritch Blast every turn**: 1d10+4 per beam. At level 5 it fires two beams. That beats any bow he could hold.
+- **[Skip] Rapier / Goblin Bow**: Only for breaking crates. Don't spend gold on his weapons.
+
+**Upgrade ideas:**
+- Level 5 picks: Fireball (Fiend bonus spell) and Repelling Blast (invocation: Eldritch Blast pushes enemies, great with ledges).
+- Anything that adds to Eldritch Blast or raises Charisma or spell DC.
+- His robe boosts poison spells: Ray of Sickness and Poison Spray get the +1–4.
+- Hat, boots and amulet: any effect at all beats an empty slot.
+
+**Level plan:** Level up now. Take Fireball and Repelling Blast.
