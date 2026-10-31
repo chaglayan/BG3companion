@@ -67,7 +67,7 @@ Mark anything unknown as `_unknown_`, and anything uncertain with `(?)`. **Never
 ## Processing photos
 
 Photos reach you in one of three ways:
-- **Attached in chat.** You won't always have them as files, so transcribe everything useful into `campaign/` right away.
+- **Attached in chat.** These are also saved under `/root/.claude/uploads/<session>/`. Copy them to `photos/processed/<today>/` with descriptive names, shrinking them first (`convert f -auto-orient -resize '1800x1800>' -strip -quality 80 f`; phone originals are ~2 MB each). Future sessions can't see chat images, so the repo copy and your notes are the only record.
 - **Google Drive** (the player shares a folder or file). Use the Google Drive tools.
 - **Committed to `photos/inbox/`.**
 
