@@ -18,6 +18,23 @@ Your last save was on the Risen Road heading northwest, which is exactly where y
 
 Order doesn't matter much. The point is to **do both routes before following either one to its end.**
 
+## Camp: level-up session (2026-10-31)
+**Wyll → Warlock 5**
+- Automatic: Eldritch Blast fires **2 beams**; pact slots become **3rd level**.
+- New spell: **Fireball** (Fiend bonus spell).
+- New invocation: **Repelling Blast** if he doesn't have it, otherwise **Devil's Sight**.
+
+**Shadowheart → Cleric 5**
+- Automatic: 3rd-level slots, Destroy Undead; Blink and Dispel Magic always prepared (Trickery).
+- Prepare: **Spirit Guardians** (main fight spell) and **Mass Healing Word**.
+
+**Karlach → respec at Withers (100 gold), rebuild straight to 5**
+- Stats: STR 17 · DEX 14 · CON 16 · INT 8 · WIS 10 · CHA 8 (unarmoured AC 15)
+- Subclass at 3: Wildheart, Bear
+- Feat at 4: **Great Weapon Master**
+- Level 5: Extra Attack and Fast Movement (automatic)
+- Then **equip a two-hander**.
+
 ## Selûnite Outpost (Underdark), right now
 - [ ] **Loot Dhourn's body** and check what he carried. Use it (Gale has the best Arcana).
 - [ ] Loot the spectator, if you killed it.

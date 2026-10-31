@@ -126,6 +126,8 @@ Two routes are open:
   - **Nudge:** no lead on that last page yet. Nothing to chase right now.
 - ↳ **Destroy the Ancient Tome**: open, _entry not photographed_.
 
+**The Adamantine Forge**: unlocked (2026-10-31, player report). _Send a journal photo for details._
+
 **Rescue the Trapped Man** (Waukeen's Rest fire)
 - You freed **Benryn**, told him to find his own way out, and he made it out of the tavern.
 - He found his **wife's body**. 💔
@@ -138,7 +140,8 @@ Two routes are open:
 - You reached the temple said to hold it (in the Goblin Camp).
 - Clue: a **poem about Selûne** mentions a **door under the temple**. *"What is hidden beneath the Goblin Camp?"*
 - ✅ (2026-10-31, player report) Found the **moon gate** and went down into the Underdark, reaching the **Selûnite Outpost**.
-- **Nudge:** check the journal for the updated objective and send me a photo.
+- Current journal: *explore the Underdark*. The trail has gone cold there.
+- **Nudge:** nothing more to chase right now. Keep exploring normally, and it will pick up again on its own. (The player can ask for a one-off spoiler on its location.)
 
 ### Shadow-Cursed Lands
 **Rescue the Grand Duke**: open (see Wyll's Grand Duke thread above).
