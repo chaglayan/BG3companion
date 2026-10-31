@@ -55,3 +55,7 @@ A wizard in Baldur's Gate offers a fortune for something called **the Nightsong*
 You have to reach **Moonrise Towers**, and there are two ways:
 1. **The Underdark.** Halsin pointed you to tunnels under the old Selûne temple. You found the secret entrance and reached the **Myconid Colony**.
 2. **The Mountain Pass**, to the northwest. This is where Lae'zel's crèche lead points. Your last save (18 March, 41h 55m) has the party on the Risen Road, apparently heading that way.
+
+### Down through the moon gate (session of 31 Oct 2026)
+Following the Nightsong clue, you found the **moon gate** and took it down into the Underdark, arriving at a **Selûnite Outpost** guarded by beams of light at its front gate. You slipped in through the windows instead. Nearby you found **petrified drow**, and a **spectator** attacked. In the fight the drow leader, **Dhourn**, died. You won, but it cost a lot of healing potions.
+

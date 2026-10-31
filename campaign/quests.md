@@ -137,7 +137,8 @@ Two routes are open:
 - The dwarf adventurer **Brian** had a map to it, but goblins killed him at the temple.
 - You reached the temple said to hold it (in the Goblin Camp).
 - Clue: a **poem about Selûne** mentions a **door under the temple**. *"What is hidden beneath the Goblin Camp?"*
-- **Nudge:** you've already been under the temple for the Underdark route. Keep this quest in mind whenever something Selûne-related shows up.
+- ✅ (2026-10-31, player report) Found the **moon gate** and went down into the Underdark, reaching the **Selûnite Outpost**.
+- **Nudge:** check the journal for the updated objective and send me a photo.
 
 ### Shadow-Cursed Lands
 **Rescue the Grand Duke**: open (see Wyll's Grand Duke thread above).

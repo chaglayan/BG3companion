@@ -18,6 +18,12 @@ Your last save was on the Risen Road heading northwest, which is exactly where y
 
 Order doesn't matter much. The point is to **do both routes before following either one to its end.**
 
+## Selûnite Outpost (Underdark), right now
+- [ ] **Loot Dhourn's body** and check what he carried. Use it (Gale has the best Arcana).
+- [ ] Loot the spectator, if you killed it.
+- [ ] Long rest. Potions are low.
+- [ ] Gate beams: optional. There's a way to open the gate from inside if you want an easy exit.
+
 ## Act 1 wrap-up checklist
 Tick these off before leaving Act 1:
 - [ ] Githyanki patrol → Mountain Pass (Lae'zel)
