@@ -153,7 +153,7 @@ Two routes are open:
 
 ### Underdark
 - **Find the Mushroom Picker** ✅
-- **The Adamantine Forge**: open. _Send the journal entry for details._
+- **The Adamantine Forge**: open. Used the memory crystal and saw where the forge is (2026-11-01). _Send the journal entry for details._
 
 ### Shadow-Cursed Lands
 **Rescue the Grand Duke**: open (see Wyll's Grand Duke thread above).

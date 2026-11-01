@@ -30,6 +30,7 @@ Order doesn't matter much. The point is to **do both routes before following eit
 
 **Karlach → respec at Withers (100 gold), rebuild straight to 5**
 - Stats: STR 17 · DEX 14 · CON 16 · INT 8 · WIS 10 · CHA 8 (unarmoured AC 15)
+  - Point buy: STR 15 (+2 bonus), DEX 14, CON 15 (+1 bonus), INT 8, WIS 10, CHA 8. Lowering CHA 10 → 8 frees the 2 extra points CON needs (14 and 15 cost 2 points each).
 - Subclass at 3: Wildheart, Bear
 - Feat at 4: **Great Weapon Master**
 - Level 5: Extra Attack and Fast Movement (automatic)
