@@ -12,8 +12,8 @@
 | Act | **1, late.** Goblin camp done; both routes to Moonrise Towers open; Underdark entered, Mountain Pass not visited. |
 | Game version | 4.1.1.7151330 (Patch 8 era) |
 | Region | Wilderness |
-| Last known location | The Risen Road map, west side near the road toward the Mountain Pass (?) |
-| Waypoints unlocked | Roadside Cliffs, Emerald Grove Environs, Overgrown Ruins, The Risen Road, Blighted Village, Whispering Depths, Goblin Camp, Riverside Teahouse, Waukeen's Rest, Zhentarim Hideout, Underdark – Myconid Colony |
+| Last known location | Underdark, near the Sussur Tree (west), heading to camp (2026-11-01) |
+| Waypoints unlocked | Roadside Cliffs, Emerald Grove Environs, Overgrown Ruins, The Risen Road, Blighted Village, Whispering Depths, Goblin Camp, Riverside Teahouse, Waukeen's Rest, Zhentarim Hideout, Underdark – Myconid Colony, Underdark – Beach, Underdark – Selûnite Outpost, Underdark – Sussur Tree |
 
 ## Party
 | Slot | Character | Class / level |
