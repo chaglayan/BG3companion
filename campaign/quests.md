@@ -21,6 +21,14 @@ Two routes are open:
 | Get Help from Auntie Ethel | ✅ |
 | Rescue the Druid Halsin | ✅ |
 | **Find the Githyanki Crèche** | Open |
+| **Help Omeluum Investigate the Parasite** | Open (new) |
+
+**Help Omeluum Investigate the Parasite** _(journal, 2026-11-01)_
+- You mentioned the parasite to **Blurg**, a hobgoblin. His colleague **Omeluum**, a mind flayer, offered to examine it.
+- Omeluum **couldn't extract** the tadpole, but offered a way to **negate the magic protecting it**.
+- He needs a **Tongue of Madness** mushroom and some **Timmask Spores**. Both can be found in the **mysterious tower nearby** (the Arcane Tower on your map).
+- The tower belongs to **Lenore, a cleric of Mystra**, who liked gardening and experimenting with plants like the sussur tree.
+- **Nudge:** the Arcane Tower is your next stop. Bring **Gale**, since the tower belongs to a follower of Mystra.
 
 **Find the Githyanki Crèche**
 - Lae'zel says githyanki can cure you at one of their crèches.
@@ -114,7 +122,7 @@ Two routes are open:
 
 ### Nautiloid Crash Region (this act)
 
-**Finish the Masterwork Weapon**: *Find a Sussur Tree.*
+**Finish the Masterwork Weapon**: *Find a Sussur Tree.* ✅ **You've found it** (Underdark – Sussur Tree waypoint). Grab the bark, then take it to a forge with the blueprints.
 - You found blueprints for masterwork weapons. All you need is **sussur bark**.
 - Journal says: *"Sussur Trees can be found deep within the Underdark."*
 - **Nudge:** you're already headed there. Keep an eye out.
@@ -142,6 +150,10 @@ Two routes are open:
 - ✅ (2026-10-31, player report) Found the **moon gate** and went down into the Underdark, reaching the **Selûnite Outpost**.
 - Current journal: *explore the Underdark*. The trail has gone cold there.
 - **Nudge:** nothing more to chase right now. Keep exploring normally, and it will pick up again on its own. (The player can ask for a one-off spoiler on its location.)
+
+### Underdark
+- **Find the Mushroom Picker** ✅
+- **The Adamantine Forge**: open. _Send the journal entry for details._
 
 ### Shadow-Cursed Lands
 **Rescue the Grand Duke**: open (see Wyll's Grand Duke thread above).

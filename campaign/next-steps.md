@@ -35,7 +35,12 @@ Order doesn't matter much. The point is to **do both routes before following eit
 - Level 5: Extra Attack and Fast Movement (automatic)
 - Then **equip a two-hander**.
 
-## Selûnite Outpost (Underdark), right now
+## Underdark, next (2026-11-01)
+- [ ] **Sussur bark**: you have the Sussur Tree waypoint. Grab the bark for the masterwork weapon.
+- [ ] **Arcane Tower** (southwest of the Beach): Omeluum's two mushrooms. Bring Gale.
+- [ ] Return to **Omeluum** with the mushrooms.
+
+## Selûnite Outpost (Underdark), earlier
 - [ ] **Loot Dhourn's body** and check what he carried. Use it (Gale has the best Arcana).
 - [ ] Loot the spectator, if you killed it.
 - [ ] Long rest. Potions are low.
