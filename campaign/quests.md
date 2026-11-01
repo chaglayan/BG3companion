@@ -68,7 +68,7 @@ Two routes are open:
 - A recovered memory: as a lost child chased by a **wolf** through a dark forest, she was rescued by Shar worshippers led by the Mother Superior. That explains her **fear of wolves**.
 - **You promised to help ease her pain** if you can. She really appreciated it.
 
-↳ **The Chosen of Shar**: *Find the Dark Justiciar's lair.*
+↳ **The Chosen of Shar**: *Explore Grymforge.* You found Dark Justiciar corpses, traces of hellish fiends, and the ruins of a fortress dedicated to Shar. You may be close to the lair.
 - You found murals in the grove showing the **Dark Justiciars**, an elite order of Sharran warriors.
 - The temple of Selûne you found had been razed by them.
 - Journal says: *"Such a force must have had a stronghold to operate from. Perhaps it can still be found."*
@@ -153,7 +153,13 @@ Two routes are open:
 
 ### Underdark
 - **Find the Mushroom Picker** ✅
-- **The Adamantine Forge**: open. Used the memory crystal and saw where the forge is (2026-11-01). _Send the journal entry for details._
+- **The Adamantine Forge** ✅ Complete. You found the forge and **killed Grym** (hard fight). Forged an **Adamantine Longsword**.
+- **Cure the Poisoned Gnome** ✅: cured **Thulla**, a deep gnome. She was very thankful.
+- **Defeat the Duergar Intruders** ✅
+- **Save the Grymforge Gnomes**: *Free the deep gnomes.* Thulla (Ironhand clan) asked you to help her kin; duergar hold them captive. **Philomeen** wants nothing to do with the others.
+- **Find the Missing Boots**: *Talk to Sergeant Thrinn.* Thulla gave you the boots. Gekh Coal (defeated) reminded you to bring them to his duergar sergeant, Thrinn. ⚖️ Who gets the boots is your choice.
+- **Deliver Nere's Head**: *Kill Nere.* Sovereign Spaw wants the head of the drow Nere.
+- **Help the Spirit of the Amulet**: *Find the lost amulet.* A Dark Justiciar's journal mentions an amulet of great power that made the wearer laugh. It was cast into the lava.
 
 ### Shadow-Cursed Lands
 **Rescue the Grand Duke**: open (see Wyll's Grand Duke thread above).

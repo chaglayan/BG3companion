@@ -59,3 +59,6 @@ You have to reach **Moonrise Towers**, and there are two ways:
 ### Down through the moon gate (session of 31 Oct 2026)
 Following the Nightsong clue, you found the **moon gate** and took it down into the Underdark, arriving at a **Selûnite Outpost** guarded by beams of light at its front gate. You slipped in through the windows instead. Nearby you found **petrified drow**, and a **spectator** attacked. In the fight the drow leader, **Dhourn**, died. You won, but it cost a lot of healing potions.
 
+### Grymforge (1 Nov 2026)
+Deeper in the Underdark you met **Blurg** and **Omeluum**, a friendly mind flayer who couldn't extract your tadpole but can weaken the magic protecting it, if you bring him two mushrooms from **Lenore's Arcane Tower**. Using Dhourn's memory crystal you found the way to **Grymforge**. There you cured a poisoned deep gnome, **Thulla**, fought off duergar, and learned her clan is held captive. At the ancient **Adamantine Forge** you beat its guardian, **Grym**, and forged an adamantine longsword. Shadowheart's hunt led here too: Dark Justiciar corpses and the ruins of a fortress of Shar. And Wyll's missing Grand Duke turned out to be **his father**.
+

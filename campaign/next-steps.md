@@ -36,6 +36,11 @@ Order doesn't matter much. The point is to **do both routes before following eit
 - Level 5: Extra Attack and Fast Movement (automatic)
 - Then **equip a two-hander**.
 
+## Grymforge, now (2026-11-01)
+- [ ] **Level up everyone** (all show LEVEL UP). Changuine 6: Expertise in Stealth + Sleight of Hand.
+- [ ] Open Grymforge quests: free the deep gnomes, the boots (Thrinn vs Thulla), Nere's head, the lava amulet.
+- [ ] ⚠️ **The Sharran ruins in Grymforge lead toward the end of the act.** Explore Grymforge itself freely, but when the game shows the leave-the-region popup, stop. Mountain Pass and the githyanki lead are still undone.
+
 ## Underdark, next (2026-11-01)
 - [ ] **Sussur bark**: you have the Sussur Tree waypoint. Grab the bark for the masterwork weapon.
 - [ ] **Arcane Tower** (southwest of the Beach): Omeluum's two mushrooms. Bring Gale.

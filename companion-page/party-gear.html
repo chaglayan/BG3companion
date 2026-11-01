@@ -179,14 +179,14 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
 
 <script type="application/json" id="party-data">
 {
- "updated": "31 Oct 2026",
+ "updated": "1 Nov 2026",
  "save": {
   "act": "Act 1 (late)",
-  "where": "Exploring the Underdark",
+  "where": "Grymforge (Underdark), after beating Grym",
   "lastSave": "18 Mar 2026",
   "playtime": "41h 55m",
   "difficulty": "Balanced",
-  "gold": 5140
+  "gold": 5242
  },
  "glossary": [
   [
@@ -228,7 +228,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "cls": "Rogue",
    "sub": "Swashbuckler",
    "level": 5,
-   "levelUp": false,
+   "levelUp": true,
    "where": "party",
    "hp": 38,
    "ac": 16,
@@ -261,9 +261,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Body",
-     "name": "Leather Armour +1",
-     "r": "uncommon",
-     "note": "Light, AC 12 (+DEX, so 16 total). Stealthy: +1 Stealth checks."
+     "name": "Drow Studded Leather Armour",
+     "r": "rare",
+     "note": "Light, AC 12 (+DEX = 16 total). +1 Stealth."
     },
     {
      "slot": "Hands",
@@ -291,16 +291,15 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Ring",
-     "name": "Polished Ring",
-     "r": "common",
-     "note": "No effect",
-     "flag": "dud"
+     "name": "Caustic Band",
+     "r": "uncommon",
+     "note": "Malefic Excretion: weapon attacks deal +2 acid damage"
     },
     {
      "slot": "Main hand",
      "name": "Rupturing Blade",
      "r": "uncommon",
-     "note": "Rapier +1, 1d8+5 (6–13), Finesse. Actions with proficiency: Piercing Strike, Weakening Strike, Flourish, plus its own Searing Blood (extra fire damage that hurts you a little)."
+     "note": "Rapier +1, 1d8+5 (+2 acid from Caustic Band) = 8–15. Finesse. Actions: Piercing Strike, Weakening Strike, Flourish, Searing Blood."
     },
     {
      "slot": "Off hand",
@@ -310,9 +309,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Ranged",
-     "name": "Light Crossbow",
-     "r": "common",
-     "note": "1d8+4 (5–12), two-handed"
+     "name": "Light Crossbow +1",
+     "r": "uncommon",
+     "note": "1d8+5 (+2 acid) = 8–15"
     }
    ],
    "camp": "Comfortable Autumnal Outfit, Elfin Woodsoles, Lyre",
@@ -323,6 +322,11 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
       "v": "best",
       "name": "Rupturing Blade alone (current)",
       "text": "About 9.5 damage a hit, plus Sneak Attack (10.5). Your bonus action stays free for Cunning Action, Flourish or Dirty Tricks, and you keep the four rapier actions. Best for a swashbuckler who darts in, stabs, and Disengages."
+     },
+     {
+      "v": "no",
+      "name": "Adamantine Longsword (in your bag)",
+      "text": "Worse for you. It isn't Finesse, so it uses your STR (+0) instead of DEX (+4): about 4 less to hit and damage. And Sneak Attack only works with Finesse or ranged weapons, so you'd lose 3d6 a turn. Give it to someone else."
      },
      {
       "v": "alt",
@@ -343,8 +347,8 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    },
    "needs": [
     {
-     "s": "warn",
-     "t": "Polished Ring does nothing. That's a free ring slot."
+     "s": "crit",
+     "t": "Level-up waiting (5 → 6): two more Expertise picks."
     },
     {
      "s": "tip",
@@ -511,7 +515,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "cls": "Wizard",
    "sub": "Evocation",
    "level": 5,
-   "levelUp": false,
+   "levelUp": true,
    "where": "party",
    "hp": 37,
    "ac": 15,
@@ -541,9 +545,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Body",
-     "name": "Studded Leather Armour",
-     "r": "common",
-     "note": "Light, AC 12 (+DEX 1)"
+     "name": "Leather Armour +1",
+     "r": "uncommon",
+     "note": "Light, AC 12 (+DEX). +1 Stealth."
     },
     {
      "slot": "Hands",
@@ -559,15 +563,21 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Neck",
-     "name": "Moondrop Pendant",
-     "r": "uncommon",
-     "note": "Writhing Dance: below 50% HP, no opportunity attacks against him"
+     "name": "Amulet of Restoration",
+     "r": "rare",
+     "note": "Healing Word and Mass Healing Word, once each per long rest (?)"
     },
     {
      "slot": "Ring",
      "name": "'Magic' Ring",
      "r": "story",
      "note": "Orange = story item. No combat effect I can find. Keep it in his bag; you can free the slot."
+    },
+    {
+     "slot": "Ring",
+     "name": "Ring with a summon spell (?)",
+     "r": "rare",
+     "note": "Name unreadable in the video. Send a photo."
     },
     {
      "slot": "Main hand",
@@ -583,9 +593,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Ranged",
-     "name": "Longbow",
-     "r": "common",
-     "note": "2–9 (not proficient, so it barely matters)"
+     "name": "Longbow +1",
+     "r": "uncommon",
+     "note": "Not proficient"
     }
    ],
    "camp": "Gale's Austere Clothes, Tasteful Boots, Netherese Briefs",
@@ -605,6 +615,10 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     ]
    },
    "needs": [
+    {
+     "s": "crit",
+     "t": "Level-up waiting (5 → 6)."
+    },
     {
      "s": "warn",
      "t": "Keep a spare magic item ready. His journal says he'll ask again."
@@ -871,11 +885,11 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "race": "High Half-Elf",
    "cls": "Cleric",
    "sub": "Trickery Domain",
-   "level": 4,
+   "level": 5,
    "levelUp": true,
    "where": "camp",
    "hp": 31,
-   "ac": 17,
+   "ac": 18,
    "approval": 52,
    "abil": [
     13,
@@ -896,19 +910,21 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "gear": [
     {
      "slot": "Head",
-     "name": null,
-     "flag": "empty"
+     "name": "Wapira's Crown",
+     "r": "uncommon",
+     "note": "Crowning Glory: when she heals someone else, she regains 1–6 HP"
     },
     {
      "slot": "Body",
-     "name": "Scale Mail",
-     "r": "common",
-     "note": "Medium, AC 14 + DEX (max 2, she has +1) = 15. Stealth disadvantage."
+     "name": "Luminous Armour",
+     "r": "uncommon",
+     "note": "Medium, AC 15 (+DEX max 2). Radiating Shockwave: dealing radiant damage can cause a radiant shockwave."
     },
     {
      "slot": "Hands",
-     "name": null,
-     "flag": "empty"
+     "name": "Gloves of Uninhibited Kushigo",
+     "r": "rare",
+     "note": "+1d4 damage on throws and improvised-weapon attacks"
     },
     {
      "slot": "Feet",
@@ -917,8 +933,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Neck",
-     "name": null,
-     "flag": "empty"
+     "name": "The Amulet of Lost Voices",
+     "r": "rare",
+     "note": "Speak with Dead"
     },
     {
      "slot": "Ring",
@@ -964,17 +981,22 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
       "v": "plan",
       "name": "Level 5: Spirit Guardians",
       "text": "Her best 3rd-level spell. Enemies around her take damage every turn, which also keeps the flail's Madness check safe."
+     },
+     {
+      "v": "alt",
+      "name": "Adamantine Longsword + shield",
+      "text": "She's proficient (Half-Elf). One-handed 1d8+1 is about the same damage as the flail, with no Madness risk, and it ignores slashing resistance. Good swap if Madness keeps biting."
      }
     ]
    },
    "needs": [
     {
      "s": "crit",
-     "t": "Level-up waiting (4 → 5). She gets 3rd-level spells."
+     "t": "Level-up waiting again (5 → 6)."
     },
     {
      "s": "warn",
-     "t": "Head, hands, boots and neck are empty, and her ring does nothing."
+     "t": "Feet are still empty, and the Carnelian Ring does nothing."
     },
     {
      "s": "tip",
@@ -988,7 +1010,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "Four empty slots: any gloves, boots, hat or amulet with an effect is pure upside.",
     "WIS 17 is odd. A +1 WIS half-feat at level 8 rounds it to 18."
    ],
-   "levelPlan": "Level up now. Take Spirit Guardians."
+   "levelPlan": "Level 6 Trickery: I think Channel Divinity gets a second use. Keep Spirit Guardians as her main spell."
   },
   {
    "id": "karlach",
@@ -997,19 +1019,19 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "race": "Zariel Tiefling",
    "cls": "Barbarian",
    "sub": "Wildheart",
-   "level": 4,
+   "level": 5,
    "levelUp": true,
    "where": "camp",
    "hp": 41,
-   "ac": 13,
+   "ac": 15,
    "approval": 29,
    "abil": [
-    18,
-    13,
-    15,
+    17,
+    14,
+    16,
     8,
-    12,
-    10
+    10,
+    8
    ],
    "bestAt": "Athletics +6",
    "prof": "Light and medium armour, shields, heavy armour (her feat). All simple and martial weapons.",
@@ -1019,19 +1041,20 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "Unarmoured Defence: AC 10 + DEX + CON = 13 with no armour",
     "Bear Heart (Wildheart): extra toughness while raging",
     "Danger Sense, Hellish Resistance (fire)",
-    "Feat: Heavily Armoured (probably wasted, see below)"
+    "Feat: Great Weapon Master"
    ],
    "gear": [
     {
      "slot": "Head",
-     "name": null,
-     "flag": "empty"
+     "name": "Mask (name unreadable) (?)",
+     "r": "uncommon",
+     "note": "Has an Immolation effect (?)"
     },
     {
      "slot": "Body",
-     "name": null,
-     "flag": "empty",
-     "note": "OK for a Barbarian (Unarmoured Defence), but medium armour would be +1–2 AC"
+     "name": "Bloodguzzler Garb",
+     "r": "uncommon",
+     "note": "Clothing, AC 10 (Unarmoured Defence still applies). Crimson Revelation: when an enemy damages her, she gains Wrath for 1 turn."
     },
     {
      "slot": "Hands",
@@ -1046,8 +1069,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Neck",
-     "name": null,
-     "flag": "empty"
+     "name": "Moondrop Pendant",
+     "r": "uncommon",
+     "note": "Below 50% HP, no opportunity attacks against her"
     },
     {
      "slot": "Ring",
@@ -1058,9 +1082,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Main hand",
-     "name": null,
-     "flag": "crit",
-     "note": "No weapon. She's punching."
+     "name": "Greataxe +1",
+     "r": "uncommon",
+     "note": "1d12+1 (+2 acid?) = 4–15, two-handed"
     },
     {
      "slot": "Ranged",
@@ -1097,19 +1121,15 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "needs": [
     {
      "s": "crit",
-     "t": "No weapon equipped. Give her any two-hander now."
-    },
-    {
-     "s": "crit",
-     "t": "Level-up waiting (4 → 5): Extra Attack."
+     "t": "Level-up waiting (5 → 6)."
     },
     {
      "s": "warn",
-     "t": "Heavily Armoured feat is probably wasted (I think Rage doesn't work in heavy armour). Respec at Withers for 100 gold."
+     "t": "Boots empty, and the Copper Ring does nothing."
     },
     {
-     "s": "warn",
-     "t": "Head, boots, neck and ranged are empty, and her ring does nothing."
+     "s": "tip",
+     "t": "Respec done (STR 17, CON 16, AC 15). Use Reckless Attack with Great Weapon Master on."
     }
    ],
    "ideas": [
@@ -1118,7 +1138,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "Items that add STR, Rage damage or temp HP fit her.",
     "When you respec her, tell me and I'll lay out stats and feats."
    ],
-   "levelPlan": "Equip a weapon, respec (GWM), then level to 5."
+   "levelPlan": "Level 6 Wildheart: a new animal aspect. Ask me when you get there."
   }
  ],
  "shopping": [
