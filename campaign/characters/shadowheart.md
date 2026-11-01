@@ -59,6 +59,13 @@ _Updated 2026-10-31 with the player's tooltip corrections and web research. Mirr
 
 Camp: Shadowheart's Clothes, Acolyte's Sandals
 
+## Prepared spells (recommended, 2026-11-01, level 5, 8 slots)
+- **III:** Spirit Guardians · Mass Healing Word
+- **II:** Aid (cast after each long rest) · Hold Person · Spiritual Weapon
+- **I:** Bless · Healing Word · Guiding Bolt
+- Concentration (only one at a time): Spirit Guardians, Bless, Hold Person, Shield of Faith.
+- Spell DC 13, spell attack +5.
+
 ## Story
 - Approval: **High (52)**.
 - **Daughter of Darkness**: secretly a cleric of **Shar** with a mission in Baldur's Gate she can't fully remember (she let her memory be suppressed). The **Mother Superior** who raised her gave her the **wound that never heals**. She dreams of becoming a **Dark Justiciar**. Raised by Sharrans after being chased by a wolf as a child, hence **Fear of Wolves**. **You promised to help ease her pain.**

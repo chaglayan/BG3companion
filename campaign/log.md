@@ -13,3 +13,4 @@
 | 2026-10-31 | Player unlocked The Adamantine Forge. Nightsong now says to explore the Underdark (trail cold). Heading to camp to long rest and level up Wyll, Shadowheart and Karlach (plan in next-steps). |
 | 2026-11-01 | Journal + Underdark map: met Blurg and Omeluum (new Find a Cure step), Find the Mushroom Picker done, Adamantine Forge open. Waypoints: Beach, Selûnite Outpost, Sussur Tree. Arcane Tower spotted. Player heading to camp for long rest and level-ups. |
 | 2026-11-01 | Karlach respec in progress at Withers; fixed point-buy plan (CHA 8 to afford CON 15 base). Player used Dhourn's memory crystal and learned the Adamantine Forge's location. |
+| 2026-11-01 | Shadowheart levelled to Cleric 5. Recommended a prepared spell list (saved in her file). |
