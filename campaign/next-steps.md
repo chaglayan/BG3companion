@@ -37,8 +37,9 @@ Order doesn't matter much. The point is to **do both routes before following eit
 - Then **equip a two-hander**.
 
 ## Grymforge, now (2026-11-01)
-- [ ] **Level up everyone** (all show LEVEL UP). Changuine 6: Expertise in Stealth + Sleight of Hand.
-- [ ] **Forge with the last mithral ore: Adamantine Splint Armour for Lae'zel** (AC 18, no crits, −2 damage taken). Next ore → Adamantine Scale Mail for Shadowheart or Karlach. Keep looking for more ore around Grymforge.
+- [x] Level 6 for everyone.
+- [x] Adamantine Forge done, Grym killed, Adamantine Longsword made, lava amulet found.
+- [ ] **Last mithral ore → Adamantine Scale Mail for Karlach** (Team B tank; Lae'zel already has crit immunity from the Grymskull Helm). Forge it before leaving the forge.
 - [ ] Open Grymforge quests: free the deep gnomes, the boots (Thrinn vs Thulla), Nere's head, the lava amulet.
 - [ ] ⚠️ **The Sharran ruins in Grymforge lead toward the end of the act.** Explore Grymforge itself freely, but when the game shows the leave-the-region popup, stop. Mountain Pass and the githyanki lead are still undone.
 
