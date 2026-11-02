@@ -18,3 +18,4 @@
 | Gale | Gave him **at least two magic items** | Stabilised him for a while; now treatment has stopped working |
 | Astarion | **Respecced him to a Glamour Bard** (Withers) | — |
 | Underdark, Selûnite Outpost | Entered through the windows instead of dealing with the gate beams. Fought the spectator. | **Dhourn died** in the fight. Player kept going (no reload). |
+| Camp | Agreed to let **Karlach use a soul coin** (not used yet) | _Pending_ |
