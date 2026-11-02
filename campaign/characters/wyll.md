@@ -85,3 +85,5 @@ Camp: Wyll's Earthy Garb, Tasteful Boots
 - Hat, boots and amulet: any effect at all beats an empty slot.
 
 **Level plan:** Level up now. Take Fireball and Repelling Blast.
+
+**Hex note (2026-11-02):** for Wyll, Hex costs one of his 2 pact slots (level 3). Cast it once per fight; moving it to a new target after a kill is free. Budget per fight: Hex + Fireball, then short rest.

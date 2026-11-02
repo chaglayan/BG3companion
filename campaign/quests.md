@@ -159,7 +159,7 @@ Two routes are open:
 - **Save the Grymforge Gnomes**: *Free the deep gnomes.* Thulla (Ironhand clan) asked you to help her kin; duergar hold them captive. **Philomeen** wants nothing to do with the others.
 - **Find the Missing Boots**: *Talk to Sergeant Thrinn.* Thulla gave you the boots. Gekh Coal (defeated) reminded you to bring them to his duergar sergeant, Thrinn. ⚖️ Who gets the boots is your choice.
 - **Deliver Nere's Head**: *Kill Nere.* Sovereign Spaw wants the head of the drow Nere.
-- **Help the Spirit of the Amulet**: *Find the lost amulet.* A Dark Justiciar's journal mentions an amulet of great power that made the wearer laugh. It was cast into the lava.
+- **Help the Spirit of the Amulet**: found the amulet in the lava (2026-11-02). **Keep it in your bag; don't discard or sell it**, since the quest depends on carrying it.
 
 ### Shadow-Cursed Lands
 **Rescue the Grand Duke**: open (see Wyll's Grand Duke thread above).
