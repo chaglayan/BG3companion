@@ -17,20 +17,21 @@ Also at camp: Halsin (player won't use him, not tracked), the dog, and others.
 
 ⬆️ = level-up waiting.
 
-## Party plan (player's design, 2026-11-02)
-Changuine plus two rotating trios. Each trio has a tank, a healer/support and a caster, but the builds are deliberately different so all 7 together cover more.
+## Party plan (player's design, updated 2026-11-02)
+Changuine plus two rotating trios. Duos stay together: **Wyll + Shadowheart** and **Astarion + Gale**. The tank swaps between them.
 
 | Role | Team A | Team B |
 |---|---|---|
-| Tank | **Karlach**: soaks with HP and Bear-Rage resistances, hits hard (GWM) | **Lae'zel**: high AC, crit immunity, battlefield control (Trip, Menacing, Riposte). Level 6: **Heavy Armour Master** (player's choice: she lasts longer, others do the damage); level 8: STR 20 or Sentinel |
-| Healer / support | **Shadowheart**: real healer, Spirit Guardians (radiant + Luminous), Revivify, Bless | **Astarion**: buffer/controller. Inspiration-heals (gear), Hypnotic Pattern, lockpicking, face |
-| Caster | **Gale**: area damage and answers. Fireball, Haste, Counterspell, Knock (team has no lockpicker) | **Wyll**: steady single-target damage. Eldritch Blast + Repelling Blast, Devil's Sight; slots refresh on short rest |
+| Tank | **Lae'zel** (Heavy Armour Master, high AC) | **Karlach** (Bear Rage resistances, big HP, Reason's Grasp temp HP). She survives better without a real healer. |
+| Support | **Shadowheart**: real healer, Spirit Guardians | **Astarion**: control (Hypnotic Pattern, Hold Person), Inspiration heals |
+| Caster / face | **Wyll**: Eldritch Blast, Fireball, the team's talker | **Gale**: Fireball, Haste, Counterspell; small heals from the Amulet of Restoration |
 
-Gaps to cover:
-- Lockpicking: player is happy using bought lockpicks/trap kits.
-- Team B has no Revivify → carry **Scrolls of Revivify** and extra healing potions.
-- Team B has no Counterspell → Wyll could take it as a 3rd-level pick.
-- XP is shared, so benched companions level up too. Approval only changes for those in the party, so rotating helps (Astarion needs it).
+Notes:
+- Team A talker: Wyll (Deception/Performance +8). Team B talker: Astarion (Intimidation +10).
+- Team A has no Counterspell → Wyll can learn it later.
+- Team B healing: keep the **Amulet of Restoration on Gale**, plus Astarion's Healing Word and potions.
+- Hypnotic Pattern can catch allies; aim it away from the tank.
+- Lockpicking: kits (player's choice).
 
 ## Who to use for what
 | Job | Best pick |

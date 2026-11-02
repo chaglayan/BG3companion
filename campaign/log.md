@@ -22,3 +22,4 @@
 | 2026-11-02 | Lae'zel feat changed to Heavy Armour Master (tank). Karlach missing a lot → explained GWM is a toggle. |
 | 2026-11-02 | Wyll in party, level 6 (45 HP, Deepened Pact). Gave spell picks and a how-to-play loop. |
 | 2026-11-02 | Astarion level 6 (Glamour: Mantle of Majesty). Recommended learn Shatter, swap Cure Wounds → Dissonant Whispers. Reframed him as controller. Player wants him in the party for his story. |
+| 2026-11-02 | Teams reshuffled: A = Lae'zel/Shadowheart/Wyll, B = Karlach/Astarion/Gale (tank swappable). |
