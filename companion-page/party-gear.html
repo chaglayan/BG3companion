@@ -637,7 +637,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "race": "Githyanki",
    "cls": "Fighter",
    "sub": "Battle Master",
-   "level": 5,
+   "level": 6,
    "levelUp": false,
    "where": "party",
    "hp": 49,
@@ -658,14 +658,15 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "Great Weapon Fighting: rerolls 1s and 2s on two-handed damage",
     "Battle Master: 5 superiority dice for maneuvers (Trip, Menacing, Precision…)",
     "Riposte: counter-attack as a reaction when an enemy misses her",
-    "Githyanki: Misty Step and Mage Hand racial spells (?)"
+    "Githyanki: Misty Step and Mage Hand racial spells (?)",
+    "Feat (level 6): Great Weapon Master: toggle −5 to hit / +10 damage; bonus attack after a crit or kill"
    ],
    "gear": [
     {
      "slot": "Head",
-     "name": "Haste Helm",
+     "name": "Grymskull Helm",
      "r": "rare",
-     "note": "Smooth Start: Momentum for 3 turns at the start of combat"
+     "note": "Immune to critical hits (per player)"
     },
     {
      "slot": "Body",
@@ -706,7 +707,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
      "slot": "Main hand",
      "name": "Sword of Justice",
      "r": "uncommon",
-     "note": "Greatsword 2d6+5 (7–17), +1. Gives Tyr's Protection."
+     "note": "Greatsword 2d6+5 (+2 acid?) = 6–15, +1. Gives Tyr's Protection."
     },
     {
      "slot": "Ranged",
@@ -725,25 +726,29 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
       "text": "2d6 with Great Weapon Fighting rerolls is the best two-handed damage for a fighter. Keep it."
      },
      {
-      "v": "plan",
-      "name": "Level 6: Great Weapon Master feat",
-      "text": "Fighters get an extra feat at 6. GWM gives −5 to hit / +10 damage (toggle it against low-AC enemies) and a bonus attack after a crit or kill. Her biggest damage jump."
-     },
-     {
       "v": "best",
       "name": "Titanstring Bow (ranged)",
       "text": "Adds STR to damage, so she shoots almost as hard as she swings. Maneuvers work with it too."
+     },
+     {
+      "v": "no",
+      "name": "Adamantine Longsword",
+      "text": "Worse for her: one-handed 1d8, or 1d10 two-handed, vs the greatsword's 2d6 with Great Weapon Fighting rerolls. She doesn't need an off-hand; two hands on the greatsword is the build."
      }
     ]
    },
    "needs": [
     {
-     "s": "warn",
-     "t": "Second ring slot is empty."
+     "s": "tip",
+     "t": "Keep Chain Mail +1 (AC 17) over Ring Mail +2 (AC 16). AC beats +1 STR saves."
     },
     {
      "s": "tip",
-     "t": "Keep her in the party for the githyanki crèche lead (northwest)."
+     "t": "Use Great Weapon Master's toggle against low-AC enemies, or pair it with the Precision maneuver."
+    },
+    {
+     "s": "warn",
+     "t": "Second ring slot is empty."
     }
    ],
    "ideas": [
@@ -751,7 +756,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "Armour: Splint (AC 17 base) or Plate (18) when you find or can afford them, even plain ones.",
     "A greatsword at +2, or one with an on-hit effect, when you see one."
    ],
-   "levelPlan": "Next: level 6 feat. Great Weapon Master recommended."
+   "levelPlan": "Level 6 done: Great Weapon Master. Next armour upgrade: Adamantine Splint (AC 18) if you forge it."
   },
   {
    "id": "wyll",
