@@ -15,3 +15,4 @@
 | 2026-11-01 | Karlach respec in progress at Withers; fixed point-buy plan (CHA 8 to afford CON 15 base). Player used Dhourn's memory crystal and learned the Adamantine Forge's location. |
 | 2026-11-01 | Shadowheart levelled to Cleric 5. Recommended a prepared spell list (saved in her file). |
 | 2026-11-01 | Killed Grym, Adamantine Forge done (Adamantine Longsword). 8 journal photos + gear video (Changuine, Shadowheart, Gale, Karlach). Everyone has a level-up waiting. Advised keeping the rapier. Party page v3. Flagged the Grymforge ruins as the route out of the act. |
+| 2026-11-02 | Player has 1 mithral ore left with Scale Mail, Mace and Splint moulds. Recommended Splint for Lae'zel. |
