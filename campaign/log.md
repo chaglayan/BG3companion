@@ -19,3 +19,4 @@
 | 2026-11-02 | Level 6: Karlach (65 HP, Animal Aspect advice: Bear), Gale (44 HP, 2 new spells), Shadowheart (45 HP), Changuine (Expertise: Persuasion + Athletics). Karlach: Dark Justiciar Mask (+1 Intimidation); player agreed to her soul coin but hasn't used it. Gale: Fetish of Callarduran Smoothhands (Invisibility). Explained Sneak Attack vs stealth. Page v4. |
 | 2026-11-02 | Lae'zel back in party (Karlach to camp). Grymskull Helm on Lae'zel. Lae'zel level 6 → Great Weapon Master. Keep Chain Mail +1 over Ring Mail +2. Splint still +1 AC for her. |
 | 2026-11-02 | Player's party plan: Changuine + Team A (Karlach/Shadowheart/Gale) or Team B (Lae'zel/Astarion/Wyll), built differently. Plan saved in characters/README.md. |
+| 2026-11-02 | Lae'zel feat changed to Heavy Armour Master (tank). Karlach missing a lot → explained GWM is a toggle. |

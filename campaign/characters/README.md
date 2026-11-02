@@ -22,12 +22,12 @@ Changuine plus two rotating trios. Each trio has a tank, a healer/support and a 
 
 | Role | Team A | Team B |
 |---|---|---|
-| Tank | **Karlach**: soaks with HP and Bear-Rage resistances, hits hard (GWM) | **Lae'zel**: high AC, crit immunity, battlefield control (Trip, Menacing, Riposte). Level 6: GWM; later Heavy Armour Master or Sentinel |
+| Tank | **Karlach**: soaks with HP and Bear-Rage resistances, hits hard (GWM) | **Lae'zel**: high AC, crit immunity, battlefield control (Trip, Menacing, Riposte). Level 6: **Heavy Armour Master** (player's choice: she lasts longer, others do the damage); level 8: STR 20 or Sentinel |
 | Healer / support | **Shadowheart**: real healer, Spirit Guardians (radiant + Luminous), Revivify, Bless | **Astarion**: buffer/controller. Inspiration-heals (gear), Hypnotic Pattern, lockpicking, face |
 | Caster | **Gale**: area damage and answers. Fireball, Haste, Counterspell, Knock (team has no lockpicker) | **Wyll**: steady single-target damage. Eldritch Blast + Repelling Blast, Devil's Sight; slots refresh on short rest |
 
 Gaps to cover:
-- Team A has no lockpicker → Gale learns **Knock**; Changuine spots traps.
+- Lockpicking: player is happy using bought lockpicks/trap kits.
 - Team B has no Revivify → carry **Scrolls of Revivify** and extra healing potions.
 - Team B has no Counterspell → Wyll could take it as a 3rd-level pick.
 - XP is shared, so benched companions level up too. Approval only changes for those in the party, so rotating helps (Astarion needs it).
