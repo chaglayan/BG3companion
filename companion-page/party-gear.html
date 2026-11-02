@@ -371,7 +371,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "race": "High Elf",
    "cls": "Bard",
    "sub": "College of Glamour",
-   "level": 5,
+   "level": 6,
    "levelUp": false,
    "where": "party",
    "hp": 33,
@@ -391,7 +391,10 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "Mantle of Inspiration (bonus action): temp HP for allies, and they can reposition with their reaction",
     "Bardic Inspiration ×4 per rest. His gear makes each use heal (Cap of Curing), add 4 temp HP (Blazer) and give +1d4 to attacks/saves when he heals (Whispering Promise)",
     "Jack of All Trades: half proficiency on every skill",
-    "Spellcasting: CHA, DC 15, +7 to hit, up to 3rd-level spells"
+    "Spellcasting: CHA, DC 15, +7 to hit",
+    "Known spells: Fear, Hypnotic Pattern, Hold Person, Lesser Restoration, Healing Word, Heroism, Tasha's Hideous Laughter (+ level 6 picks)",
+    "Mantle of Majesty (Glamour 6): bonus-action Command every turn while concentrating",
+    "Countercharm (Bard 6): allies resist charm and fear"
    ],
    "gear": [
     {
@@ -462,29 +465,39 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    ],
    "camp": "Astarion's Eccentric Clothes",
    "weapons": {
-    "summary": "He's a caster first. Weapons are the fallback.",
+    "summary": "He's a controller, not a healer. He shuts enemies down so nobody needs healing.",
     "options": [
      {
       "v": "best",
-      "name": "Spells + Bardic Inspiration (main plan)",
-      "text": "Open fights with Mantle of Inspiration, then crowd control. If he didn't pick Hypnotic Pattern as a 3rd-level spell, it's the standout Bard choice at level 5."
+      "name": "Opener: Hypnotic Pattern",
+      "text": "Turn 1 on a group: enemies who fail are out of the fight until hit. Don't attack the hypnotised ones, kill the rest first."
      },
      {
       "v": "best",
-      "name": "The Joltshooter (ranged fallback)",
-      "text": "His best weapon attack: 1d8+3+lightning. Stay back and shoot when he's out of good spells."
+      "name": "Boss humanoid: Hold Person",
+      "text": "Paralysed: Lae'zel and Changuine's melee hits on it are automatic crits."
+     },
+     {
+      "v": "best",
+      "name": "Every turn: Bardic Inspiration",
+      "text": "Bonus action on an ally. With his gear it also heals 1d6, gives 4 temp HP and +1d4 to attacks/saves."
      },
      {
       "v": "alt",
-      "name": "Shortsword + Dagger (melee fallback)",
-      "text": "Fine as is. Both are Light, so no feat is needed. The Linebreaker Boots add +1 melee damage after a Dash."
+      "name": "Healing Word = pick-up only",
+      "text": "Only to get a downed ally back up. Real healing is Shadowheart's job; on Team B use potions."
+     },
+     {
+      "v": "alt",
+      "name": "Joltshooter",
+      "text": "When concentration is already running and he has nothing better, shoot."
      }
     ]
    },
    "needs": [
     {
      "s": "crit",
-     "t": "Approval is Neutral (2), the lowest in the party. Watch what he reacts to."
+     "t": "Approval still low. Keep him in the party for a while; he reacts to your choices only when he's with you."
     },
     {
      "s": "warn",
@@ -492,7 +505,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "s": "tip",
-     "t": "Use Bardic Inspiration every fight. With his gear, each use heals and shields too."
+     "t": "Concentration: Hypnotic Pattern, Hold Person, Fear, Hideous Laughter and Mantle of Majesty all need it. One at a time."
     }
    ],
    "ideas": [
@@ -500,7 +513,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "Gear that raises spell DC (now 15) makes Hypnotic Pattern and other control spells land more.",
     "Keep his healing kit together. It's a rare synergy."
    ],
-   "levelPlan": "Next: level 6 Bard gets more Expertise (I think) and Glamour's next feature."
+   "levelPlan": "Level 6: learn Shatter (no-concentration damage). Replace Cure Wounds with Dissonant Whispers."
   },
   {
    "id": "gale",
