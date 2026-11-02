@@ -761,10 +761,10 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "race": "Human",
    "cls": "Warlock",
    "sub": "The Fiend",
-   "level": 4,
-   "levelUp": true,
-   "where": "camp",
-   "hp": 31,
+   "level": 6,
+   "levelUp": false,
+   "where": "party",
+   "hp": 45,
    "ac": 13,
    "approval": 55,
    "abil": [
@@ -782,7 +782,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "Dark One's Blessing: temp HP when he drops an enemy",
     "Pact of the Chain: familiar",
     "Spellcasting: CHA, DC 14, +6 to hit. Pact slots refresh on a short rest.",
-    "Feat: Actor"
+    "Feat: Actor",
+    "Deepened Pact (level 6, Chain): his familiar gets Extra Attack",
+    "Dark One's Own Luck (Fiend 6): once per short rest, add 1d10 to a check or save"
    ],
    "gear": [
     {
@@ -838,21 +840,27 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "options": [
      {
       "v": "best",
-      "name": "Eldritch Blast every turn",
-      "text": "1d10+4 per beam. At level 5 it fires two beams. That beats any bow he could hold."
+      "name": "Hex + Eldritch Blast every turn",
+      "text": "Bonus action: Hex the biggest enemy (+1d6 per beam). Action: Eldritch Blast, two beams of 1d10+4. When the target dies, move Hex for free with your bonus action."
+     },
+     {
+      "v": "best",
+      "name": "Fireball for groups",
+      "text": "Only 2 pact slots, but they come back on a short rest. Spend them every fight, then short rest."
+     },
+     {
+      "v": "alt",
+      "name": "Repelling Blast",
+      "text": "Each beam pushes 4.5 m. Grymforge has lava and drops everywhere: push enemies in."
      },
      {
       "v": "no",
-      "name": "Rapier / Goblin Bow",
-      "text": "Only for breaking crates. Don't spend gold on his weapons."
+      "name": "Rapier / bow",
+      "text": "Never. Eldritch Blast is better."
      }
     ]
    },
    "needs": [
-    {
-     "s": "crit",
-     "t": "Level-up waiting (4 → 5). Eldritch Blast becomes 2 beams, and he gets 3rd-level slots."
-    },
     {
      "s": "warn",
      "t": "Head, boots and neck are empty, and his ring does nothing."
@@ -868,7 +876,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "His robe boosts poison spells: Ray of Sickness and Poison Spray get the +1–4.",
     "Hat, boots and amulet: any effect at all beats an empty slot."
    ],
-   "levelPlan": "Level up now. Take Fireball and Repelling Blast."
+   "levelPlan": "Level 6 done. New spell: Hex if missing, otherwise Counterspell. Replace Witch Bolt (if he has it) with Armour of Agathys."
   },
   {
    "id": "shadowheart",

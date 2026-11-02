@@ -20,3 +20,4 @@
 | 2026-11-02 | Lae'zel back in party (Karlach to camp). Grymskull Helm on Lae'zel. Lae'zel level 6 → Great Weapon Master. Keep Chain Mail +1 over Ring Mail +2. Splint still +1 AC for her. |
 | 2026-11-02 | Player's party plan: Changuine + Team A (Karlach/Shadowheart/Gale) or Team B (Lae'zel/Astarion/Wyll), built differently. Plan saved in characters/README.md. |
 | 2026-11-02 | Lae'zel feat changed to Heavy Armour Master (tank). Karlach missing a lot → explained GWM is a toggle. |
+| 2026-11-02 | Wyll in party, level 6 (45 HP, Deepened Pact). Gave spell picks and a how-to-play loop. |
