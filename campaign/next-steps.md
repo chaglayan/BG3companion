@@ -54,6 +54,11 @@ Order doesn't matter much. The point is to **do both routes before following eit
 - [ ] Long rest. Potions are low.
 - [ ] Gate beams: optional. There's a way to open the gate from inside if you want an easy exit.
 
+## Habits (2026-11-02)
+- **Long rest more often.** You have ~1,600 camp supplies (40 per rest). Companion and romance scenes happen at camp at night, and traders restock after a rest.
+- **Selling:** right-click junk → *Mark as Wares*, then use *Sell Wares* in the trade window. Switch characters in the trade window to sell from anyone's bag.
+- **Trade with your highest-Charisma character** and keep traders friendly (gifts raise attitude, which improves prices).
+
 ## Act 1 wrap-up checklist
 Tick these off before leaving Act 1:
 - [ ] Githyanki patrol → Mountain Pass (Lae'zel)

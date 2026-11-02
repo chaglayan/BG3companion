@@ -62,7 +62,7 @@ Camp: Lae'zel's Clothes, Tasteful Boots
 - Approval: **Medium (28)**.
 - **The Githyanki Warrior**: promised you'd be cleansed at a **githyanki crèche**. Zorru saw githyanki near a **mountain pass in the northwest**, and a githyanki knight's red dragon flew over the Risen Road. Journal: *"We should travel there with Lae'zel."* 👉 **Keep her in the party** for this.
 - **Free Lae'zel** ✅
-- Romance: _unknown_
+- Romance: **yes, in progress with Changuine** (player report, 2026-11-02)
 
 ## Build notes
 **Proficient with:** All armour and shields. All simple and martial weapons.
