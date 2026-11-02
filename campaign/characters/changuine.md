@@ -6,6 +6,14 @@
 
 Tags: Humanoid, One-Eyed, Seldarine, Underdark, Drow, Rogue
 
+## Current snapshot (synced from party page, 2 Nov 2026)
+- **Level 6** Rogue · Swashbuckler · in party
+- HP 38 · AC 16
+- Stats: STR 11 · DEX 18 · CON 14 · INT 12 · WIS 11 · CHA 10
+- **Level plan:** Level 6 done: Expertise in Persuasion + Athletics. (Stealth/Sleight of Hand can't take Expertise without proficiency.)
+- To fix: Not proficient in Stealth or Sleight of Hand. Let Astarion pick locks and disarm traps.; Rakish Audacity means you don't need to flank or hide for Sneak Attack in melee. Just stay one-on-one with the target.
+> The older sections below may be out of date for stats; this snapshot and the party page win.
+
 ## Ability scores
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
@@ -50,19 +58,19 @@ Opportunity Attack · Rakish Sneak Attack · Rakish Sneak Attack (Critical Hit) 
 Armour ×1 · Simple weapons ×12 · Martial weapons ×4 · no instruments
 
 ## Equipment
-_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
+_Synced from the party page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
 | Head | Leather Helmet | Common | +1 DEX saving throws |
-| Body | Leather Armour +1 | Uncommon | Light, AC 12 (+DEX, so 16 total). Stealthy: +1 Stealth checks. |
+| Body | Drow Studded Leather Armour | Rare | Light, AC 12 (+DEX = 16 total). +1 Stealth. |
 | Hands | Gloves of Power | Uncommon | +1 Sleight of Hand. Absolute's Bane (−1d4 to the target's attacks and saves on hit). Wikis say the Bane part only works if the wearer has the Absolute's brand. |
 | Feet | The Watersparkers | Rare | Electrify Water (the water you stand in becomes electrified) and Waterspark (Lightning Charges when you end your turn in electrified water) |
 | Neck | Silver Pendant | Uncommon | Guidance cantrip |
 | Ring | Ring of Colour Spray | Uncommon | Colour Spray spell |
-| Ring | Polished Ring | Common · **dud** | No effect |
-| Main hand | Rupturing Blade | Uncommon | Rapier +1, 1d8+5 (6–13), Finesse. Actions with proficiency: Piercing Strike, Weakening Strike, Flourish, plus its own Searing Blood (extra fire damage that hurts you a little). |
-| Off hand | — (**empty**) |  | Rapier isn't Light, so the off-hand stays empty until you take Dual Wielder |
-| Ranged | Light Crossbow | Common | 1d8+4 (5–12), two-handed |
+| Ring | Caustic Band | Uncommon | Malefic Excretion: weapon attacks deal +2 acid damage |
+| Main hand | Rupturing Blade | Uncommon | Rapier +1, 1d8+5 (+2 acid from Caustic Band) = 8–15. Finesse. Actions: Piercing Strike, Weakening Strike, Flourish, Searing Blood. |
+| Off hand | — (empty) |  | Rapier isn't Light, so the off-hand stays empty until you take Dual Wielder |
+| Ranged | Light Crossbow +1 | Uncommon | 1d8+5 (+2 acid) = 8–15 |
 
 Camp: Comfortable Autumnal Outfit, Elfin Woodsoles, Lyre
 
@@ -85,8 +93,9 @@ Camp: Comfortable Autumnal Outfit, Elfin Woodsoles, Lyre
 - Mage Slayer: punish casters next to you
 - Luck of the Far Realms (tadpole power): turn a hit into a crit
 
-**Weapon setup:** You're right: the rapier is the right call at level 5. Here's the maths.
+**How to play / weapon setup:** You're right: the rapier is the right call at level 5. Here's the maths.
 - **[Best now] Rupturing Blade alone (current)**: About 9.5 damage a hit, plus Sneak Attack (10.5). Your bonus action stays free for Cunning Action, Flourish or Dirty Tricks, and you keep the four rapier actions. Best for a swashbuckler who darts in, stabs, and Disengages.
+- **[Skip] Adamantine Longsword (in your bag)**: Worse for you. It isn't Finesse, so it uses your STR (+0) instead of DEX (+4): about 4 less to hit and damage. And Sneak Attack only works with Finesse or ranged weapons, so you'd lose 3d6 a turn. Give it to someone else.
 - **[Option] Two Light weapons (e.g. shortsword + dagger)**: Main hand drops to about 8.5, but the off-hand adds about 3.5 and gives a second chance to land Sneak Attack if the first swing misses. That's roughly 2–4 more damage a turn, but it eats your bonus action every turn and you lose the rapier actions. Only worth it with two +1 or better Light weapons.
 - **[Plan] Level 8: Dual Wielder feat**: Lets you keep the rapier and add a second rapier or shortsword in the off-hand, plus +1 AC. This is the upgrade path if you want more melee damage. Rogues get a feat at levels 8 and 10.
 - **[Option] Ranged: Light Crossbow vs hand crossbows**: Keep the Light Crossbow (1d8). Hand crossbows (1d6) only win if you dual-wield two of them for a bonus-action shot.
@@ -96,7 +105,4 @@ Camp: Comfortable Autumnal Outfit, Elfin Woodsoles, Lyre
 - Armour: the best light armour gives 12 base. Studded Leather +1 or +2 is a straight AC upgrade (13–14 base).
 - Ring slot 2: anything that adds damage, AC or saves.
 - Head/neck: items that boost initiative or Dexterity saves suit a Rogue.
-- Level 6: Expertise in two more skills. Sleight of Hand and Stealth make you the party's lockpicker and scout.
 - Level 8 feat: Dual Wielder (more melee), or +2 DEX to reach 20 (more to-hit, damage and AC).
-
-**Level plan:** Next: level 6 gives two more Expertise picks (Stealth and Sleight of Hand recommended).

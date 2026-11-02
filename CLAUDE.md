@@ -58,6 +58,7 @@ The player may browse these files. **Don't write future content into the repo**:
 | `campaign/decisions.md` | Important choices made and who reacted. Only consequences the player already knows about. |
 | `campaign/next-steps.md` | Current plan: what to do now, missables in the current area, the next point of no return, prep checklist. |
 | `campaign/log.md` | Dated log of sessions, photo batches processed, and what changed. |
+| `campaign/tips.md` | Mechanics already explained, habits, trading, romance basics, mods, pace. Check it before re-explaining something. |
 
 Mark anything unknown as `_unknown_`, and anything uncertain with `(?)`. **Never invent facts to fill a gap.** Ask for a photo instead.
 
@@ -96,10 +97,14 @@ The player's live party view: **https://claude.ai/artifact/6Acsd7HEK7DHV7QekBz3Z
 - Source: `companion-page/party-gear.html`. All data lives in the `<script type="application/json" id="party-data">` block: per character, stats, gear by slot, a "needs" list (`crit`/`warn`/`tip`) and upgrade ideas, plus a party shopping list.
 - **Whenever gear, levels, HP/AC or approval change, update both `campaign/characters/*.md` and this JSON**, then republish. From a new conversation, pass the URL above as `url` (read it first). Don't create a new artifact.
 - Upgrade ideas stay spoiler-free: describe item *types* and stats, never name specific items, places or traders the player hasn't seen.
+- **Workflow:** edit the JSON in the HTML directly (Python: load, change, dump back into the block), check it at phone width with Playwright, republish the same file path, then re-sync `campaign/characters/*.md` (Equipment, Build notes, Current snapshot) from the JSON. The JSON is the source of truth for gear, levels and level plans.
 
 ---
 
 ## Housekeeping
+
+- **Research:** bg3.wiki, bg3modmanager.net and dtgre.com are blocked by this environment's network. Use WebSearch (it still returns wiki snippets) and say "I think" when sources disagree. Don't paste spoilery search results.
+- **Videos:** the player sends equipment videos (.MOV, about 480p). Extract frames with `ffmpeg -i in.MOV -vf "fps=1,tile=3x3" out%d.jpg` into the scratchpad, then read the tiles.
 
 - **The container is ephemeral. Commit and push after every meaningful update**, using messages like `Campaign: processed journal photos (Act 1 quests)`.
 - **Continuity across sessions:** campaign data must be on the branch the next session starts from. At session start, if `campaign/overview.md` looks empty or stale, run `git fetch --all` and check other branches (`git log --all --oneline -- campaign/`) for newer campaign updates before assuming nothing is known.

@@ -4,6 +4,14 @@
 |---|---|---|---|
 | High Elf | **Bard · College of Glamour** (respecced) | Charlatan | 5 |
 
+## Current snapshot (synced from party page, 2 Nov 2026)
+- **Level 6** Bard · College of Glamour · in party
+- HP 33 · AC 14 · Approval 2
+- Stats: STR 8 · DEX 16 · CON 13 · INT 12 · WIS 10 · CHA 18
+- **Level plan:** Level 6: learn Shatter (no-concentration damage). Replace Cure Wounds with Dissonant Whispers.
+- To fix: Approval still low. Keep him in the party for a while; he reacts to your choices only when he's with you.; Second ring slot is empty.; Concentration: Hypnotic Pattern, Hold Person, Fear, Hideous Laughter and Mantle of Majesty all need it. One at a time.
+> The older sections below may be out of date for stats; this snapshot and the party page win.
+
 ## Ability scores
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
@@ -43,7 +51,7 @@ Opportunity Attack
 Armour ×1 · Simple ×12 · Martial ×5 · Musical instruments ✓
 
 ## Equipment
-_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
+_Synced from the party page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
 | Head | Cap of Curing | Uncommon | Soothing Songs: Bardic Inspiration also heals 1–6 |
@@ -52,7 +60,7 @@ _Updated 2026-10-31 with the player's tooltip corrections and web research. Mirr
 | Feet | Linebreaker Boots | Rare | Adrenaline Rush: Dashing gives Wrath (+1 melee damage, a couple of turns), once per turn |
 | Neck | Amulet of Selûne's Chosen | Uncommon | Selûne's Dream once per long rest: heals an ally a little but can put them to sleep. Safer outside combat. |
 | Ring | The Whispering Promise | Uncommon | Blessed Mercy: anyone he heals gets +1d4 to attacks and saves for 2 turns |
-| Ring | — (**empty**) |  |  |
+| Ring | — (empty) |  |  |
 | Main hand | Steelforged Sword (?) | Uncommon | Shortsword type, 5–10, +1 |
 | Off hand | Dagger +1 | Uncommon | 2–5 (Light, so dual-wielding works) |
 | Ranged | The Joltshooter | Rare | Longbow 4–11, Lightning Charges on hits |
@@ -72,16 +80,19 @@ Camp: Astarion's Eccentric Clothes
 - Mantle of Inspiration (bonus action): temp HP for allies, and they can reposition with their reaction
 - Bardic Inspiration ×4 per rest. His gear makes each use heal (Cap of Curing), add 4 temp HP (Blazer) and give +1d4 to attacks/saves when he heals (Whispering Promise)
 - Jack of All Trades: half proficiency on every skill
-- Spellcasting: CHA, DC 15, +7 to hit, up to 3rd-level spells
+- Spellcasting: CHA, DC 15, +7 to hit
+- Known spells: Fear, Hypnotic Pattern, Hold Person, Lesser Restoration, Healing Word, Heroism, Tasha's Hideous Laughter (+ level 6 picks)
+- Mantle of Majesty (Glamour 6): bonus-action Command every turn while concentrating
+- Countercharm (Bard 6): allies resist charm and fear
 
-**Weapon setup:** He's a caster first. Weapons are the fallback.
-- **[Best now] Spells + Bardic Inspiration (main plan)**: Open fights with Mantle of Inspiration, then crowd control. If he didn't pick Hypnotic Pattern as a 3rd-level spell, it's the standout Bard choice at level 5.
-- **[Best now] The Joltshooter (ranged fallback)**: His best weapon attack: 1d8+3+lightning. Stay back and shoot when he's out of good spells.
-- **[Option] Shortsword + Dagger (melee fallback)**: Fine as is. Both are Light, so no feat is needed. The Linebreaker Boots add +1 melee damage after a Dash.
+**How to play / weapon setup:** He's a controller, not a healer. He shuts enemies down so nobody needs healing.
+- **[Best now] Opener: Hypnotic Pattern**: Turn 1 on a group: enemies who fail are out of the fight until hit. Don't attack the hypnotised ones, kill the rest first.
+- **[Best now] Boss humanoid: Hold Person**: Paralysed: Lae'zel and Changuine's melee hits on it are automatic crits.
+- **[Best now] Every turn: Bardic Inspiration**: Bonus action on an ally. With his gear it also heals 1d6, gives 4 temp HP and +1d4 to attacks/saves.
+- **[Option] Healing Word = pick-up only**: Only to get a downed ally back up. Real healing is Shadowheart's job; on Team B use potions.
+- **[Option] Joltshooter**: When concentration is already running and he has nothing better, shoot.
 
 **Upgrade ideas:**
 - Ring slot 2: anything that adds Charisma, spell save DC or spell damage.
 - Gear that raises spell DC (now 15) makes Hypnotic Pattern and other control spells land more.
 - Keep his healing kit together. It's a rare synergy.
-
-**Level plan:** Next: level 6 Bard gets more Expertise (I think) and Glamour's next feature.

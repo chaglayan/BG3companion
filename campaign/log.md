@@ -25,3 +25,4 @@
 | 2026-11-02 | Teams reshuffled: A = Lae'zel/Shadowheart/Wyll, B = Karlach/Astarion/Gale (tank swappable). |
 | 2026-11-02 | Found the lava amulet (Help the Spirit of the Amulet): advised keep/stow, don't discard. Corrected Wyll's Hex advice (costs a pact slot). |
 | 2026-11-02 | Player romancing Lae'zel. Explained selling, wares, long rests, bartering and romance basics. |
+| 2026-11-02 | Pre-compact save: synced character files from the party page, added tips.md (mechanics, habits, trading, romance, mods, pace), updated overview and CLAUDE.md workflow notes. |

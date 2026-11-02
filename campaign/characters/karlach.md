@@ -4,6 +4,14 @@
 |---|---|---|---|
 | Zariel Tiefling | Barbarian · **Wildheart** (Bear Heart) | Outlander | 4 ⬆️ *level-up waiting* |
 
+## Current snapshot (synced from party page, 2 Nov 2026)
+- **Level 6** Barbarian · Wildheart · at camp
+- HP 65 · AC 15 · Approval 29
+- Stats: STR 17 · DEX 14 · CON 16 · INT 8 · WIS 10 · CHA 8
+- **Level plan:** Level 6 done: Animal Aspect → Bear (double carry weight, advantage on Strength checks, so shoves land).
+- To fix: Great Weapon Master is a toggle (Passives tab → 'All In'). Turn it on only with Reckless Attack (advantage) or against low-AC enemies; otherwise turn it off and stop missing.; Soul coin: you agreed to let her use it. It's still in the bag; she uses it when you're ready.; Boots empty, and the Copper Ring does nothing.; Respec done (STR 17, CON 16, AC 15). Use Reckless Attack with Great Weapon Master on.
+> The older sections below may be out of date for stats; this snapshot and the party page win.
+
 ## Ability scores
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
@@ -44,17 +52,17 @@ Opportunity Attack · Reckless Attack (set to ask)
 Armour ×4 · Simple ×12 · Martial ×19
 
 ## Equipment
-_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
+_Synced from the party page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
-| Head | — (**empty**) |  |  |
-| Body | — (**empty**) |  | OK for a Barbarian (Unarmoured Defence), but medium armour would be +1–2 AC |
+| Head | Dark Justiciar Mask | Uncommon | +1 Intimidation |
+| Body | Bloodguzzler Garb | Uncommon | Clothing, AC 10 (Unarmoured Defence still applies). Crimson Revelation: when an enemy damages her, she gains Wrath for 1 turn. |
 | Hands | Reason's Grasp | Uncommon | 15 temp HP when she chooses to end her Rage |
-| Feet | — (**empty**) |  |  |
-| Neck | — (**empty**) |  |  |
+| Feet | — (empty) |  |  |
+| Neck | Moondrop Pendant | Uncommon | Below 50% HP, no opportunity attacks against her |
 | Ring | Copper Ring | Common · **dud** | No effect |
-| Main hand | **Nothing equipped** |  | No weapon. She's punching. |
-| Ranged | — (**empty**) |  |  |
+| Main hand | Greataxe +1 | Uncommon | 1d12+1 (+2 acid?) = 4–15, two-handed |
+| Ranged | — (empty) |  |  |
 
 Camp: Karlach's Infernal Trousers, Tasteful Boots, Hand Drum
 
@@ -73,9 +81,9 @@ Camp: Karlach's Infernal Trousers, Tasteful Boots, Hand Drum
 - Unarmoured Defence: AC 10 + DEX + CON = 13 with no armour
 - Bear Heart (Wildheart): extra toughness while raging
 - Danger Sense, Hellish Resistance (fire)
-- Feat: Heavily Armoured (probably wasted, see below)
+- Feat: Great Weapon Master
 
-**Weapon setup:** Any two-hander today. Plan the respec around Great Weapon Master.
+**How to play / weapon setup:** Any two-hander today. Plan the respec around Great Weapon Master.
 - **[Best now] Greatsword or maul (2d6)**: Average 7 per hit before modifiers, the highest steady damage. Lae'zel already has the party's greatsword, so look for another or a maul.
 - **[Option] Greataxe (1d12)**: Average 6.5, swingier. Fine if it has a better enchantment than the greatsword or maul you find.
 - **[Plan] Respec at Withers: Great Weapon Master**: Swap Heavily Armoured for GWM. Reckless Attack gives advantage, which cancels GWM's −5 to hit, so she gets +10 damage on most swings. With Extra Attack at level 5, that's a huge jump.
@@ -86,5 +94,3 @@ Camp: Karlach's Infernal Trousers, Tasteful Boots, Hand Drum
 - Armour: Rage works in medium armour. Scale Mail (14 + 1 DEX = 15) or Half Plate (16) beats her unarmoured 13.
 - Items that add STR, Rage damage or temp HP fit her.
 - When you respec her, tell me and I'll lay out stats and feats.
-
-**Level plan:** Equip a weapon, respec (GWM), then level to 5.

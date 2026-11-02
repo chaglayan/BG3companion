@@ -4,6 +4,14 @@
 |---|---|---|---|
 | Githyanki | Fighter · **Battle Master** | Soldier | 5 |
 
+## Current snapshot (synced from party page, 2 Nov 2026)
+- **Level 6** Fighter · Battle Master · in party
+- HP 49 · AC 17 · Approval 28
+- Stats: STR 19 · DEX 13 · CON 16 · INT 10 · WIS 12 · CHA 8
+- **Level plan:** Level 6: Heavy Armour Master (tank build, STR 19). Level 8: Ability Improvement → STR 20, or Sentinel.
+- To fix: Keep Chain Mail +1 (AC 17) over Ring Mail +2 (AC 16). AC beats +1 STR saves.; Second ring slot is empty.
+> The older sections below may be out of date for stats; this snapshot and the party page win.
+
 ## Ability scores
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
@@ -43,17 +51,17 @@ Opportunity Attack · **Riposte**
 Armour ×4 · Simple ×12 · Martial ×19
 
 ## Equipment
-_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
+_Synced from the party page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
-| Head | Haste Helm | Rare | Smooth Start: Momentum for 3 turns at the start of combat |
+| Head | Grymskull Helm | Rare | Immune to critical hits (per player) |
 | Body | Chain Mail +1 | Uncommon | Heavy, AC 17. No DEX bonus. Stealth disadvantage. Superior Material: −1 slashing damage taken. |
 | Hands | Gloves of the Growling Underdog | Uncommon | Advantage on attacks when 2+ enemies surround her, +1 STR saves |
 | Feet | The Speedy Lightfeet | Rare | Dash gives 3 Lightning Charges, +1 Athletics |
 | Neck | Amulet of Misty Step | Uncommon | Misty Step spell |
 | Ring | Crusher's Ring | Uncommon | +3 m movement |
-| Ring | — (**empty**) |  |  |
-| Main hand | Sword of Justice | Uncommon | Greatsword 2d6+5 (7–17), +1. Gives Tyr's Protection. |
+| Ring | — (empty) |  |  |
+| Main hand | Sword of Justice | Uncommon | Greatsword 2d6+5 (+2 acid?) = 6–15, +1. Gives Tyr's Protection. |
 | Ranged | Titanstring Bow | Rare | Longbow 1d8+1, +1 enchantment. Titan Weapon adds her STR to damage, so 3–10 before STR. Excellent on her. |
 
 Camp: Lae'zel's Clothes, Tasteful Boots
@@ -73,15 +81,14 @@ Camp: Lae'zel's Clothes, Tasteful Boots
 - Battle Master: 5 superiority dice for maneuvers (Trip, Menacing, Precision…)
 - Riposte: counter-attack as a reaction when an enemy misses her
 - Githyanki: Misty Step and Mage Hand racial spells (?)
+- Feat (level 6): Heavy Armour Master: +1 STR, takes 3 less damage from non-magical bludgeoning/piercing/slashing hits
 
-**Weapon setup:** Her loadout is already right. The big upgrade is a feat, not a weapon.
+**How to play / weapon setup:** Greatsword without the GWM penalty: steady hits, and she keeps attackers on her.
 - **[Best now] Greatsword (current)**: 2d6 with Great Weapon Fighting rerolls is the best two-handed damage for a fighter. Keep it.
-- **[Plan] Level 6: Great Weapon Master feat**: Fighters get an extra feat at 6. GWM gives −5 to hit / +10 damage (toggle it against low-AC enemies) and a bonus attack after a crit or kill. Her biggest damage jump.
 - **[Best now] Titanstring Bow (ranged)**: Adds STR to damage, so she shoots almost as hard as she swings. Maneuvers work with it too.
+- **[Skip] Adamantine Longsword**: Worse for her: one-handed 1d8, or 1d10 two-handed, vs the greatsword's 2d6 with Great Weapon Fighting rerolls. She doesn't need an off-hand; two hands on the greatsword is the build.
 
 **Upgrade ideas:**
 - Ring slot 2: anything that adds damage or attack bonus.
 - Armour: Splint (AC 17 base) or Plate (18) when you find or can afford them, even plain ones.
 - A greatsword at +2, or one with an on-hit effect, when you see one.
-
-**Level plan:** Next: level 6 feat. Great Weapon Master recommended.

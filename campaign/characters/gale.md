@@ -4,6 +4,14 @@
 |---|---|---|---|
 | Human | Wizard · **Evocation** | Sage | 5 |
 
+## Current snapshot (synced from party page, 2 Nov 2026)
+- **Level 6** Wizard · Evocation · in party
+- HP 44 · AC 15 · Approval 72
+- Stats: STR 8 · DEX 13 · CON 16 · INT 18 · WIS 10 · CHA 12
+- **Level plan:** Level 6 done: Potent Cantrip (cantrips still do half damage on a save). New spells: Fireball (if missing), Haste, Hypnotic Pattern.
+- To fix: Keep a spare magic item ready. His journal says he'll ask again.; Ring slot holds the 'Magic' Ring (story item, no effect). Move it to his bag when you find a real ring.; Counterspell is set as a reaction. Keep a 3rd-level slot free in caster fights.
+> The older sections below may be out of date for stats; this snapshot and the party page win.
+
 ## Ability scores
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
@@ -43,18 +51,19 @@ Sculpt Spells · Absolute's Ward (?) · Writhing Dance · Swift Strides · Runni
 Armour ×2 · Simple ×4 · Martial ×3
 
 ## Equipment
-_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
+_Synced from the party page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
 | Head | Leather Helmet | Common | +1 DEX saving throws |
-| Body | Studded Leather Armour | Common | Light, AC 12 (+DEX 1) |
+| Body | Leather Armour +1 | Uncommon | Light, AC 12 (+DEX). +1 Stealth. |
 | Hands | Fleetfingers | Uncommon | Running Jump: jump free after a Dash |
 | Feet | Springstep Boots | Rare | Swift Strides: Dashing gives Momentum for 3 turns |
-| Neck | Moondrop Pendant | Uncommon | Writhing Dance: below 50% HP, no opportunity attacks against him |
+| Neck | Amulet of Restoration | Rare | Healing Word and Mass Healing Word, once each per long rest (?) |
 | Ring | 'Magic' Ring | Story | Orange = story item. No combat effect I can find. Keep it in his bag; you can free the slot. |
+| Ring | Fetish of Callarduran Smoothhands | Rare | Invisibility spell. Consider moving it to Changuine (invisible = advantage + Sneak Attack). |
 | Main hand | Staff of Crones | Uncommon | Quarterstaff 0–5. Gives Ray of Sickness. |
 | Off hand | Absolute's Warrant | Uncommon | Shield +2 AC. Gives the Heroism spell. Absolute's Ward: +1 to saves when the Absolute's sound is heard (?) |
-| Ranged | Longbow | Common | 2–9 (not proficient, so it barely matters) |
+| Ranged | Longbow +1 | Uncommon | Not proficient |
 
 Camp: Gale's Austere Clothes, Tasteful Boots, Netherese Briefs
 
@@ -74,7 +83,7 @@ Camp: Gale's Austere Clothes, Tasteful Boots, Netherese Briefs
 - Spellcasting: INT, DC 15, +7 to hit, up to 3rd-level spells, Arcane Recovery
 - Human Versatility: extra skill
 
-**Weapon setup:** Spells do the work. The staff and shield setup is right for him.
+**How to play / weapon setup:** Spells do the work. The staff and shield setup is right for him.
 - **[Best now] Staff + shield (current)**: The shield gives +2 AC and Heroism, and the staff gives a free Ray of Sickness. Perfect for a wizard. He never needs a better weapon, just better casting gear.
 - **[Skip] Longbow**: Not proficient. Use a cantrip like Fire Bolt instead of shooting.
 
@@ -82,5 +91,3 @@ Camp: Gale's Austere Clothes, Tasteful Boots, Netherese Briefs
 - Anything that raises spell save DC or spell attack, or adds damage to fire/lightning/cold spells. Evocation scales with that.
 - Studded Leather +1 or a better shield would be easy AC.
 - Level 6 Evocation: Potent Cantrip (I think): cantrips still do half damage on a save.
-
-**Level plan:** Next: level 6. Learn 2 new spells; copy scrolls into his spellbook whenever you find them.

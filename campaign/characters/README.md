@@ -1,21 +1,19 @@
 # Party
 
 One file per character with full stats. This page is the quick view.
-_Last updated 2026-10-31 from character screens._
+_Last synced 2026-11-02 from the party page._
 
-| Character | Where | Class / level | HP | AC | Approval of Changuine | File |
+| Character | Where | Class / level | HP | AC | Approval | File |
 |---|---|---|---|---|---|---|
-| **Changuine** 👑 | Party | Rogue 5 · Swashbuckler | 38 | 16 | — | [changuine.md](changuine.md) |
-| Astarion | Party | Bard 5 · Glamour | 33 | 14 | ⚠️ Neutral (2) | [astarion.md](astarion.md) |
-| Gale | Party | Wizard 5 · Evocation | 37 | 15 | Very High (72) | [gale.md](gale.md) |
-| Lae'zel | Party | Fighter 5 · Battle Master | 49 | 17 | Medium (28) | [laezel.md](laezel.md) |
-| Wyll | Camp | Warlock 4 · Fiend ⬆️ | 31 | 13 | High (55) | [wyll.md](wyll.md) |
-| Shadowheart | Camp | Cleric 4 · Trickery ⬆️ | 31 | 17 | High (52) | [shadowheart.md](shadowheart.md) |
-| Karlach | Camp | Barbarian 4 · Wildheart ⬆️ | 41 | 13 | Medium (29) | [karlach.md](karlach.md) |
+| **Changuine** | Party | Rogue 6 · Swashbuckler | 38 | 16 | — | [changuine.md](changuine.md) |
+| **Astarion** | Party | Bard 6 · College of Glamour | 33 | 14 | 2 | [astarion.md](astarion.md) |
+| **Gale** | Camp | Wizard 6 · Evocation | 44 | 15 | 72 | [gale.md](gale.md) |
+| **Lae'zel** | Party | Fighter 6 · Battle Master | 49 | 17 | 28 | [laezel.md](laezel.md) |
+| **Wyll** | Party | Warlock 6 · The Fiend | 45 | 13 | 55 | [wyll.md](wyll.md) |
+| **Shadowheart** | Camp | Cleric 6 · Trickery Domain | 45 | 18 | 52 | [shadowheart.md](shadowheart.md) |
+| **Karlach** | Camp | Barbarian 6 · Wildheart | 65 | 15 | 29 | [karlach.md](karlach.md) |
 
 Also at camp: Halsin (player won't use him, not tracked), the dog, and others.
-
-⬆️ = level-up waiting.
 
 ## Party plan (player's design, updated 2026-11-02)
 Changuine plus two rotating trios. Duos stay together: **Wyll + Shadowheart** and **Astarion + Gale**. The tank swaps between them.

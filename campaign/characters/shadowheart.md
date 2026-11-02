@@ -4,6 +4,14 @@
 |---|---|---|---|---|
 | High Half-Elf | Cleric · **Trickery Domain** | Acolyte | Shar | 4 ⬆️ *level-up waiting* |
 
+## Current snapshot (synced from party page, 2 Nov 2026)
+- **Level 6** Cleric · Trickery Domain · at camp
+- HP 45 · AC 18 · Approval 52
+- Stats: STR 13 · DEX 13 · CON 14 · INT 10 · WIS 17 · CHA 8
+- **Level plan:** Level 6 done (9 prepared). Fill the 9th slot with Bless.
+- To fix: Feet are still empty, and the Carnelian Ring does nothing.; Shattered Flail risk: Madness if she spends a turn not damaging anyone while its heal is active.
+> The older sections below may be out of date for stats; this snapshot and the party page win.
+
 ## Ability scores
 | STR | DEX | CON | INT | WIS | CHA |
 |---|---|---|---|---|---|
@@ -44,14 +52,14 @@ Opportunity Attack
 Armour ×3 · Simple ×12 · Martial ×5
 
 ## Equipment
-_Updated 2026-10-31 with the player's tooltip corrections and web research. Mirrors the party gear page._
+_Synced from the party page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
-| Head | — (**empty**) |  |  |
-| Body | Scale Mail | Common | Medium, AC 14 + DEX (max 2, she has +1) = 15. Stealth disadvantage. |
-| Hands | — (**empty**) |  |  |
-| Feet | — (**empty**) |  |  |
-| Neck | — (**empty**) |  |  |
+| Head | Wapira's Crown | Uncommon | Crowning Glory: when she heals someone else, she regains 1–6 HP |
+| Body | Luminous Armour | Uncommon | Medium, AC 15 (+DEX max 2). Radiating Shockwave: dealing radiant damage can cause a radiant shockwave. |
+| Hands | Gloves of Uninhibited Kushigo | Rare | +1d4 damage on throws and improvised-weapon attacks |
+| Feet | — (empty) |  |  |
+| Neck | The Amulet of Lost Voices | Rare | Speak with Dead |
 | Ring | Carnelian Ring | Common · **dud** | No effect |
 | Main hand | Shattered Flail | Rare | Mace-type, 4–9, +2. Yeenoghu's Gift: hits heal her 1–6 for a few turns. If she doesn't damage an enemy on her turn while it's active, she can go Mad (DC 10 WIS save; with her +6 save she fails about 15% of the time). |
 | Off hand | Glowing Shield | Uncommon | +2 AC. Loving Protection: once per short rest, gain 8 temp HP when hit below 50% HP. |
@@ -81,10 +89,11 @@ Camp: Shadowheart's Clothes, Acolyte's Sandals
 - Trickery domain spells always prepared
 - Feat: Spell Sniper
 
-**Weapon setup:** Good weapon, with one catch: Madness.
+**How to play / weapon setup:** Good weapon, with one catch: Madness.
 - **[Best now] Shattered Flail + Glowing Shield (current)**: +2 is the best enchantment in the party, and it self-heals. Great if she's in melee every turn.
 - **[Option] When she's healing or buffing**: If she'll spend turns casting instead of hitting, swap to a plain mace for that fight. Madness makes her attack anyone nearby.
 - **[Plan] Level 5: Spirit Guardians**: Her best 3rd-level spell. Enemies around her take damage every turn, which also keeps the flail's Madness check safe.
+- **[Option] Adamantine Longsword + shield**: She's proficient (Half-Elf). One-handed 1d8+1 is about the same damage as the flail, with no Madness risk, and it ignores slashing resistance. Good swap if Madness keeps biting.
 
 **Upgrade ideas:**
 - Level 5 spells: Spirit Guardians and Mass Healing Word.
@@ -92,5 +101,3 @@ Camp: Shadowheart's Clothes, Acolyte's Sandals
 - Anything with Wisdom or spell save DC (now 13): her spells currently land less often than Gale's or Astarion's.
 - Four empty slots: any gloves, boots, hat or amulet with an effect is pure upside.
 - WIS 17 is odd. A +1 WIS half-feat at level 8 rounds it to 18.
-
-**Level plan:** Level up now. Take Spirit Guardians.
