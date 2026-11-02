@@ -17,6 +17,21 @@ Also at camp: Halsin (player won't use him, not tracked), the dog, and others.
 
 ⬆️ = level-up waiting.
 
+## Party plan (player's design, 2026-11-02)
+Changuine plus two rotating trios. Each trio has a tank, a healer/support and a caster, but the builds are deliberately different so all 7 together cover more.
+
+| Role | Team A | Team B |
+|---|---|---|
+| Tank | **Karlach**: soaks with HP and Bear-Rage resistances, hits hard (GWM) | **Lae'zel**: high AC, crit immunity, battlefield control (Trip, Menacing, Riposte). Level 6: GWM; later Heavy Armour Master or Sentinel |
+| Healer / support | **Shadowheart**: real healer, Spirit Guardians (radiant + Luminous), Revivify, Bless | **Astarion**: buffer/controller. Inspiration-heals (gear), Hypnotic Pattern, lockpicking, face |
+| Caster | **Gale**: area damage and answers. Fireball, Haste, Counterspell, Knock (team has no lockpicker) | **Wyll**: steady single-target damage. Eldritch Blast + Repelling Blast, Devil's Sight; slots refresh on short rest |
+
+Gaps to cover:
+- Team A has no lockpicker → Gale learns **Knock**; Changuine spots traps.
+- Team B has no Revivify → carry **Scrolls of Revivify** and extra healing potions.
+- Team B has no Counterspell → Wyll could take it as a 3rd-level pick.
+- XP is shared, so benched companions level up too. Approval only changes for those in the party, so rotating helps (Astarion needs it).
+
 ## Who to use for what
 | Job | Best pick |
 |---|---|
