@@ -27,7 +27,17 @@ _Things the player asked about, so we don't re-explain them. Keep spoiler-free._
 ## Romance
 - Player is romancing **Lae'zel**. Early flirting doesn't lock other romances; there's usually a clear "are we serious?" moment later. That's the real decision.
 
-## Mods (recommended 2026-11-02, not yet installed)
+## Adamantine Forge: using it again (2026-11-04)
+1. **Mould Ejection Lever** first, to clear the old mould.
+2. Put the new mould + mithral ore in the centre crucible.
+3. **Platform control / main lever** (south edge) → lower the platform. If it was raised all the way, re-lower it with the platform control button.
+4. Lava valve → fill the forge.
+5. Forge lever (bottom left) → strike. Raise the platform again and collect the item.
+
+## Mods
+**Installed via the in-game mod manager (2026-11-04), not working yet:** ContainersExtended, Camp Event Overhaul, Better Inventory UI, AddonBetterInventoryUI, Better Target Info, Better Topbar.
+
+### Recommended (2026-11-02)
 Back up saves first. Add QoL mods mid-run if you like, but don't remove them mid-save.
 - Script Extender + Mod Configuration Menu (needed by the rest)
 - Camp Event Notifications (don't miss camp scenes)
