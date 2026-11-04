@@ -28,6 +28,7 @@ Two routes are open:
 - Omeluum **couldn't extract** the tadpole, but offered a way to **negate the magic protecting it**.
 - He needs a **Tongue of Madness** mushroom and some **Timmask Spores**. Both can be found in the **mysterious tower nearby** (the Arcane Tower on your map).
 - The tower belongs to **Lenore, a cleric of Mystra**, who liked gardening and experimenting with plants like the sussur tree.
+- In the Arcane Tower now (2026-11-04); all 4 Sussur Blooms used.
 - **Nudge:** the Arcane Tower is your next stop. Bring **Gale**, since the tower belongs to a follower of Mystra.
 
 **Find the Githyanki Crèche**
@@ -158,8 +159,9 @@ Two routes are open:
 - **Defeat the Duergar Intruders** ✅
 - **Save the Grymforge Gnomes** ✅ (2026-11-04): freed the deep gnomes. Promised to **rescue Wulbren at Moonrise Towers**.
   - _(old notes)_ *Free the deep gnomes.* Thulla (Ironhand clan) asked you to help her kin; duergar hold them captive. **Philomeen** wants nothing to do with the others.
-- **Find the Missing Boots**: *Talk to Sergeant Thrinn.* Thulla gave you the boots. Gekh Coal (defeated) reminded you to bring them to his duergar sergeant, Thrinn. ⚖️ Who gets the boots is your choice.
-- **Deliver Nere's Head**: ✅ Nere killed, head taken (2026-11-04). **Next: bring the head to Sovereign Spaw** (Myconid Colony).
+- **Find the Missing Boots** ✅ (2026-11-04): gave the boots to Thrinn (reward), then took them back. Thulla didn't ask for them.
+  - _(old notes)_ *Talk to Sergeant Thrinn.* Thulla gave you the boots. Gekh Coal (defeated) reminded you to bring them to his duergar sergeant, Thrinn. ⚖️ Who gets the boots is your choice.
+- **Deliver Nere's Head**: ✅ Nere killed, head taken (2026-11-04). Delivered to Sovereign Spaw ✅ (reward was underwhelming).
 - **Help the Spirit of the Amulet**: found the amulet in the lava (2026-11-02). A monk's spirit lives in it; he wants to reach his **granddaughter at Wyrm's Crossing**. Promised to take him there. **Keep it in your bag; don't discard or sell it**, since the quest depends on carrying it.
 
 - **An ancient temple** lies beyond Grymforge (player found the way, 2026-11-04). ⚠️ That direction leads out of Act 1.

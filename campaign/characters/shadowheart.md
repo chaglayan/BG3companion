@@ -6,7 +6,7 @@
 
 ## Current snapshot (synced from party page, 2 Nov 2026)
 - **Level 6** Cleric · Trickery Domain · at camp
-- HP 45 · AC 18 · Approval 52
+- HP 45 · AC 19 · Approval 52
 - Stats: STR 13 · DEX 13 · CON 14 · INT 10 · WIS 17 · CHA 8
 - **Level plan:** Level 6 done (9 prepared). Fill the 9th slot with Bless.
 - To fix: Feet are still empty, and the Carnelian Ring does nothing.; Shattered Flail risk: Madness if she spends a turn not damaging anyone while its heal is active.
@@ -56,7 +56,7 @@ _Synced from the party page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
 | Head | Wapira's Crown | Uncommon | Crowning Glory: when she heals someone else, she regains 1–6 HP |
-| Body | Luminous Armour | Uncommon | Medium, AC 15 (+DEX max 2). Radiating Shockwave: dealing radiant damage can cause a radiant shockwave. |
+| Body | Adamantine Scale Mail | Very rare | Medium, AC 16 + DEX (max 2). Immune to crits, −1 damage taken. |
 | Hands | Gloves of Uninhibited Kushigo | Rare | +1d4 damage on throws and improvised-weapon attacks |
 | Feet | — (empty) |  |  |
 | Neck | The Amulet of Lost Voices | Rare | Speak with Dead |

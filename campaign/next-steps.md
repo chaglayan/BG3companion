@@ -39,10 +39,11 @@ Order doesn't matter much. The point is to **do both routes before following eit
 ## Grymforge, now (2026-11-01)
 - [x] Level 6 for everyone.
 - [x] Adamantine Forge done, Grym killed, Adamantine Longsword made, lava amulet found.
-- [ ] **Last mithral ore → Adamantine Scale Mail for Karlach** (Team B tank; Lae'zel already has crit immunity from the Grymskull Helm). Forge it before leaving the forge.
+- [x] Adamantine Scale Mail forged → **Shadowheart** (Karlach is at camp)
+- ~~Last mithral ore → Adamantine Scale Mail for Karlach~~ (Team B tank; Lae'zel already has crit immunity from the Grymskull Helm). Forge it before leaving the forge.
 - [x] Deep gnomes freed, Nere killed, lava amulet found.
-- [ ] **Bring Nere's head to Sovereign Spaw** (Myconid Colony).
-- [ ] The boots: Thrinn or Thulla? (still open)
+- [x] Nere's head delivered to Sovereign Spaw.
+- [x] Boots: given to Thrinn.
 - [ ] ⚠️ **The path to the ancient temple beyond Grymforge leads out of Act 1. Don't go yet.** Explore Grymforge itself freely, but when the game shows the leave-the-region popup, stop. Mountain Pass and the githyanki lead are still undone.
 
 ## Underdark, next (2026-11-01)

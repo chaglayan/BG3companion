@@ -22,3 +22,5 @@
 | Grymforge | Promised the amulet's monk spirit to take him to his granddaughter at Wyrm's Crossing | _Pending_ |
 | Grymforge | **Killed Nere**, took his head for Sovereign Spaw | Spaw's quest ready to hand in |
 | Grymforge | Freed the deep gnomes; promised to **rescue Wulbren at Moonrise Towers** | _Pending_ |
+| Grymforge | Gave the boots to **Sergeant Thrinn** for the reward, then took them back | Thulla didn't ask for them |
+| Myconid Colony | Delivered Nere's head to **Sovereign Spaw** | Reward felt weak |
