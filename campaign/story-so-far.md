@@ -62,3 +62,6 @@ Following the Nightsong clue, you found the **moon gate** and took it down into 
 ### Grymforge (1 Nov 2026)
 Deeper in the Underdark you met **Blurg** and **Omeluum**, a friendly mind flayer who couldn't extract your tadpole but can weaken the magic protecting it, if you bring him two mushrooms from **Lenore's Arcane Tower**. Using Dhourn's memory crystal you found the way to **Grymforge**. There you cured a poisoned deep gnome, **Thulla**, fought off duergar, and learned her clan is held captive. At the ancient **Adamantine Forge** you beat its guardian, **Grym**, and forged an adamantine longsword. Shadowheart's hunt led here too: Dark Justiciar corpses and the ruins of a fortress of Shar. And Wyll's missing Grand Duke turned out to be **his father**.
 
+### Freeing Grymforge (4 Nov 2026)
+You found the lost amulet in the lava, which turned out to hold a monk's restless spirit. You promised to take him to his granddaughter at Wyrm's Crossing. Then you killed **Nere**, the drow in charge at Grymforge, and took his head for Sovereign Spaw. You freed the deep gnomes and promised to rescue their leader **Wulbren**, who is held at **Moonrise Towers**. Beyond Grymforge, a path leads to an **ancient temple**.
+

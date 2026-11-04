@@ -27,3 +27,4 @@
 | 2026-11-02 | Player romancing Lae'zel. Explained selling, wares, long rests, bartering and romance basics. |
 | 2026-11-02 | Pre-compact save: synced character files from the party page, added tips.md (mechanics, habits, trading, romance, mods, pace), updated overview and CLAUDE.md workflow notes. |
 | 2026-11-04 | Player installed 6 mods via the in-game manager; they don't seem to be working. Forge platform won't lower: gave the reuse steps (saved in tips.md). |
+| 2026-11-04 | Killed Nere (head taken), freed Grymforge gnomes, promised to rescue Wulbren at Moonrise Towers. Found the way to the ancient temple: flagged it as the route out of Act 1. |

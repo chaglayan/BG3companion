@@ -40,8 +40,10 @@ Order doesn't matter much. The point is to **do both routes before following eit
 - [x] Level 6 for everyone.
 - [x] Adamantine Forge done, Grym killed, Adamantine Longsword made, lava amulet found.
 - [ ] **Last mithral ore → Adamantine Scale Mail for Karlach** (Team B tank; Lae'zel already has crit immunity from the Grymskull Helm). Forge it before leaving the forge.
-- [ ] Open Grymforge quests: free the deep gnomes, the boots (Thrinn vs Thulla), Nere's head, the lava amulet.
-- [ ] ⚠️ **The Sharran ruins in Grymforge lead toward the end of the act.** Explore Grymforge itself freely, but when the game shows the leave-the-region popup, stop. Mountain Pass and the githyanki lead are still undone.
+- [x] Deep gnomes freed, Nere killed, lava amulet found.
+- [ ] **Bring Nere's head to Sovereign Spaw** (Myconid Colony).
+- [ ] The boots: Thrinn or Thulla? (still open)
+- [ ] ⚠️ **The path to the ancient temple beyond Grymforge leads out of Act 1. Don't go yet.** Explore Grymforge itself freely, but when the game shows the leave-the-region popup, stop. Mountain Pass and the githyanki lead are still undone.
 
 ## Underdark, next (2026-11-01)
 - [ ] **Sussur bark**: you have the Sussur Tree waypoint. Grab the bark for the masterwork weapon.
