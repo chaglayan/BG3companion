@@ -28,7 +28,8 @@ Two routes are open:
 - Omeluum **couldn't extract** the tadpole, but offered a way to **negate the magic protecting it**.
 - He needs a **Tongue of Madness** mushroom and some **Timmask Spores**. Both can be found in the **mysterious tower nearby** (the Arcane Tower on your map).
 - The tower belongs to **Lenore, a cleric of Mystra**, who liked gardening and experimenting with plants like the sussur tree.
-- In the Arcane Tower now (2026-11-04); all 4 Sussur Blooms used.
+- In the Arcane Tower (2026-11-04): all 4 Sussur Blooms used. ✅ **Found both mushrooms.** Next: bring them to Omeluum (Myconid Colony waypoint).
+- Tower basement: saw a stair behind a wall on the bottom level and couldn't reach it yet. The nearest waypoint for coming back is **Underdark – Beach**.
 - **Nudge:** the Arcane Tower is your next stop. Bring **Gale**, since the tower belongs to a follower of Mystra.
 
 **Find the Githyanki Crèche**
@@ -48,6 +49,9 @@ Two routes are open:
 - You **absorbed the parasite's memories**: *"It nourished our minds, and grew our powers."* That's where Luck of the Far Realms came from.
 - **Current objective:** *Find more parasites to absorb and grow your power.*
 - **Nudge:** whether you use tadpole powers is your call. Just know that some companions have opinions about it, so watch the approval pop-ups.
+
+### Discover the History of Prince Orpheus
+- New (2026-11-04): opened after finding a disk about Orpheus in the Arcane Tower. _Send the journal entry for details._
 
 ### Discover the Artefact's Secrets
 - **Shadowheart carries a strange artefact.** It seemed to **protect you from a horrible voice**.

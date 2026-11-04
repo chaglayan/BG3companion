@@ -65,3 +65,4 @@ Deeper in the Underdark you met **Blurg** and **Omeluum**, a friendly mind flaye
 ### Freeing Grymforge (4 Nov 2026)
 You found the lost amulet in the lava, which turned out to hold a monk's restless spirit. You promised to take him to his granddaughter at Wyrm's Crossing. Then you killed **Nere**, the drow in charge at Grymforge, and took his head for Sovereign Spaw. You freed the deep gnomes and promised to rescue their leader **Wulbren**, who is held at **Moonrise Towers**. Beyond Grymforge, a path leads to an **ancient temple**.
 
+In **Lenore's Arcane Tower** you found Omeluum's mushrooms, read her books, and found a disk about **Prince Orpheus**, which opened a new personal quest.

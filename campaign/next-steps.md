@@ -48,7 +48,8 @@ Order doesn't matter much. The point is to **do both routes before following eit
 
 ## Underdark, next (2026-11-01)
 - [ ] **Sussur bark**: you have the Sussur Tree waypoint. Grab the bark for the masterwork weapon.
-- [ ] **Arcane Tower** (southwest of the Beach): Omeluum's two mushrooms. Bring Gale.
+- [x] Arcane Tower mushrooms found.
+- [ ] Arcane Tower basement (optional): hint is on the top floor; or Misty Step from the stairs. Return via the Beach waypoint.
 - [ ] Return to **Omeluum** with the mushrooms.
 
 ## Selûnite Outpost (Underdark), earlier

@@ -29,3 +29,4 @@
 | 2026-11-04 | Player installed 6 mods via the in-game manager; they don't seem to be working. Forge platform won't lower: gave the reuse steps (saved in tips.md). |
 | 2026-11-04 | Killed Nere (head taken), freed Grymforge gnomes, promised to rescue Wulbren at Moonrise Towers. Found the way to the ancient temple: flagged it as the route out of Act 1. |
 | 2026-11-04 | Boots to Thrinn (then taken back), Nere's head to Spaw, Adamantine Scale Mail → Shadowheart (AC 19). In the Arcane Tower, all Sussur Blooms used, found the Chest of the Mundane. Page v10. |
+| 2026-11-04 | Arcane Tower: top floor reached (avoided the animated armour), read books, found the Orpheus disk (new quest: Discover the History of Prince Orpheus), got both mushrooms. Basement not reached. |
