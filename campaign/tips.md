@@ -35,7 +35,12 @@ _Things the player asked about, so we don't re-explain them. Keep spoiler-free._
 5. Forge lever (bottom left) → strike. Raise the platform again and collect the item.
 
 ## Mods
-**Installed via the in-game mod manager (2026-11-04), not working yet:** ContainersExtended, Camp Event Overhaul, Better Inventory UI, AddonBetterInventoryUI, Better Target Info, Better Topbar.
+**Installed via the in-game mod manager (2026-11-04).** They're probably all working; most are subtle:
+- Better Inventory UI + Addon: the extra item icons (working).
+- Better Topbar / Better Target Info: visual tweaks (top bar; hover an enemy).
+- **Camp Event Overhaul** (HyperspaceTowel): invisible. It makes Act 1 camp scenes easier to trigger; nothing shows until you long rest.
+- **ContainersExtended** (darkcharl): the auto-sorting bags don't appear mid-game on their own. You need its optional **Vendors** add-on (traders sell the bags) or StartingEquipment/console spawn.
+- For visible "!" camp alerts, add **Camp Event Notifications** (Kvalyr) as well.
 
 ### Recommended (2026-11-02)
 Back up saves first. Add QoL mods mid-run if you like, but don't remove them mid-save.
